@@ -108,17 +108,33 @@ tan18 : {
     ]
    },
 tan19 : {
-      text : `Pizzarino says "You have 2 choices, Let everyone in this new world die because you selfishly don't want to even try or you set off to have the adventure of a lifetime"`,
+      text : `Pizzarino thanks you then says "Take this to help you on your journey"`,
       choices : [
-         ["tan20","Let everyone die"]
-         ["tan21","Set off on an amazing adventure"]
+         ["continue this after finishing tan15","Next"]
     ]
-
    },
-tan21 : {
-      text : `Pizzarino thanks you then says here take this on your journey`,
+tan14 : {
+      text : `You make it as far as the other side of town utterly avoiding all obsticals untill you reach the three meat forest and the guardian`,
+      choices : [
+         ["tan20","Next"]
+    ]
+   },
+tan20 : {
+      text : `You make a gesture that the three meat guardian takes as a sign that you want to fight and the guardian kills you with one hit (you stood no chance)`,
       choices : [
          ["start","Next"]
+    ]
+   },
+tan15 : {
+      text : `Pizzarino responds with "I know everything, i know this isn't your original world and i know this is you're just a human but i since some sort of power in you that nobody else has here"`,
+      choices : [
+         ["tan21","Next"]
+    ]
+   },
+tan21 : {
+      text : `"I think that if anyone where to save our world it would be you"You understand what you need to do next and you tell pizzario that you're going to help`,
+      choices : [
+         ["tan22","Next"]
     ]
    },
 }

@@ -110,8 +110,15 @@ tan18 : {
 tan19 : {
       text : `Pizzarino says "You have 2 choices, Let everyone in this new world die because you selfishly don't want to even try or you set off to have the adventure of a lifetime"`,
       choices : [
-         ["tan20","Next"]
+         ["tan20","Let everyone die"]
+         ["tan21","Set off on an amazing adventure"]
+    ]
+
+   },
+tan21 : {
+      text : `Pizzarino thanks you then says here take this on your journey`,
+      choices : [
+         ["start","Next"]
     ]
    },
-
 }

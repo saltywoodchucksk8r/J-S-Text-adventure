@@ -1,3 +1,13 @@
+const player = {
+   health: 100,
+   inventory: [
+      'anItem',
+      'anotherItem'
+   ]
+}
+
+console.log(player.inventory)
+
 const story = {
 start : {
     text : "It's currently 8:pm and Ze is asleep (your name is ze). your alarm makes you wake up. Then you wakes up and realizes hes late for a pizza lovers convention (for some reason they happen at night). You are rushed out of the house and decided to pick an outfit but only has 3",
@@ -23,6 +33,7 @@ tan3 : {
  text : "You pick your outfit and you leave the house",
  choices : [
     ["tan4","Next"]
+    player, inventory
  ]
 },
 tan4 : {

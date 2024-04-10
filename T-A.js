@@ -110,7 +110,7 @@ tan18 : {
 tan19 : {
       text : `Pizzarino thanks you then says "Take this to help you on your journey"`,
       choices : [
-         ["continue this after finishing tan15","Next"]
+         ["tan22", "head off on your journey"]
     ]
    },
 tan14 : {
@@ -134,7 +134,13 @@ tan15 : {
 tan21 : {
       text : `"I think that if anyone where to save our world it would be you"You understand what you need to do next and you tell pizzario that you're going to help`,
       choices : [
-         ["tan22","Next"]
+         ["tan19","Next"]
+    ]
+   },
+tan22 : {
+      text : `"I think that if anyone where to save our world it would be you"You understand what you need to do next and you tell pizzario that you're going to help`,
+      choices : [
+         ["tan19","Next"]
     ]
    },
 }

@@ -33,7 +33,7 @@ tan3 : {
  text : "You pick your outfit and you leave the house",
  choices : [
     ["tan4","Next"]
-    player, inventory
+   //  player[inventory]
  ]
 },
 tan4 : {
@@ -149,9 +149,112 @@ tan21 : {
     ]
    },
 tan22 : {
-      text : `"I think that if anyone where to save our world it would be you"You understand what you need to do next and you tell pizzario that you're going to help`,
+      text : `you see the outside of the three meat forest and you see a barder  and it looks as if you owe it something`,
       choices : [
-         ["tan19","Next"]
+         ["tan23","Next"]
+    ]
+   },
+//Ask mr fast or the internet how to make turn based fighing
+tan23 : {
+      text : `you fight the barder which seems to be the gardian of the forest`,
+      choices : [
+         ["tan24","Next"]
+    ]
+   },
+tan24 : {
+      text : `you see the outside of the three meat forest and you see a barder  and it looks as if you owe it something`,
+      choices : [
+         ["tan25","Next"]
+    ]
+   },
+// Make it to where if your health goes to Zero the screen turns red
+tan25 : {
+      text : `you run into a guy holding a hanger and he picks a fight`,
+      choices : [
+         ["tan26","Next"]
+    ]
+   },
+tan26 : {
+      text : `you travel deeper into the forest and you see 3 paths in front of you`,
+      choices : [
+         ["tan27","next"]
+    ]
+   },
+tan26 : {
+      text : `north of you, you see a crimson sky and a terrifying path with skulls on the side of the road,in front of you; you see a regular park path, South of you; see some type of peper flake path that looks majestic, maybe even suspiciously peaceful `,
+      choices : [
+         ["tan28","Front"]
+         ["tan28","North"]
+         ["tan28","South"]
+    ]
+   },
+tan28 : {
+      text : `as you travel north you notice the path is singed with burn marks and skulls scattered across on the road`,
+      choices : [
+         ["tan29","next"]
+    ]
+   },
+tan29 : {
+      text : `some sort of hobgoblins block your path, and they want you to join them`,
+      choices : [
+         ["tan30","next"]
+    ]
+   },
+tan30 : {
+      text : `Will you join them?`,
+      choices : [
+         ["tan31","say no"]
+         ["tan36","say yes"]
+    ]
+   },
+tan31 : {
+      text : `You go off to spend the rest of your life as a hobgoblin over the years you slowly turn into a hob goblin`,
+      choices : [
+         ["tan33","next"]
+    ]
+   },
+tan33 : {
+      text : `one day, somone comes through the forest and you ask them if they want to join and with no words they slaughter you, your family, and your kind`,
+      choices : [
+         ["start","next"]
+    ]
+   },
+tan34 : {
+      text : `The hob goblins are offended, now you have to fight them (4 hobgoblins)`,
+      choices : [
+         ["tan35","next"]
+    ]
+   },
+tan36 : {
+      text : `a scary dude named pepino the wicked comes at you and makes a cheesesplosion to himself nearly ending his own life, you awkwardly walk past this man and you see a man in the distance and you approach him`,
+      choices : [
+         ["tan37","next"]
+    ]
+   },
+//make it to where if you pick an item it says something different
+tan37 : {
+      text : `A humble craftsman wants you to see his wares will you see them?`,
+      choices : [
+         ["tan38","Yes"]
+         ["tan41","No"]
+    ]
+   },
+tan38 : {
+      text : `a scary dude named pepino the wicked comes at you and makes a cheesesplosion to himself nearly ending his own life, you awkwardly walk past this man and you see a man in the distance and you approach him`,
+      choices : [
+         ["tan39","Cheese cutter blade"]
+         ["tan39","Sausage slicer"]
+         ["tan39","Basil grenade launcher"]
+         ["tan39","Tomato Tosser"]
+         ["tan39","Moterella morning star"]
+         ["tan39","Marrinerra mace"]
+         ["tan39","Breadstick brrage"]
+    ]
+   },
+tan41 : {
+      text : `The humble craftsman turns mad after you neglect his kind offer and in a flash murders you sllicing you in half with his perfected wepon`,
+      choices : [
+         ["start","next"]
     ]
    },
 }

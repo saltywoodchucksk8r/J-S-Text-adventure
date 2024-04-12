@@ -184,7 +184,7 @@ tan26 : {
       text : `north of you, you see a crimson sky and a terrifying path with skulls on the side of the road,in front of you; you see a regular park path, South of you; see some type of peper flake path that looks majestic, maybe even suspiciously peaceful `,
       choices : [
          ["tan28","Front"]
-         ["tan28","North"]
+         ["tan43","North"]
          ["tan28","South"]
     ]
    },
@@ -251,10 +251,121 @@ tan38 : {
          ["tan39","Breadstick brrage"]
     ]
    },
+tan37 : {
+      text : `"Thank you kind fellow"`,
+      choices : [
+         ["tan42","next"]
+    ]
+   },
 tan41 : {
       text : `The humble craftsman turns mad after you neglect his kind offer and in a flash murders you sllicing you in half with his perfected wepon`,
       choices : [
          ["start","next"]
+    ]
+   },
+// tan42 is the meeting point
+tan42 : {
+      text : `you're now on the right path twards the evil demon lords castle`,
+      choices : [
+         ["","next"]
+    ]
+   },
+tan43 : {
+      text : `This path has all of the regular park fixins exept you only see a homeless man on a bench`,
+      choices : [
+         ["tan44","next"]
+    ]
+   },
+tan44 : {
+      text : `The homeless man approaches you,the homeless man asks you to join his homeless armada, they call themselfs the homies, will you join them?`,
+      choices : [
+         ["tan45","no"]
+         ["tan47","Yes"]
+    ]
+   },
+//make a theoretical if then statemnt for if your health goes to zero 
+tan45 : {
+      text : `The homeless people pull out guns from behind their backs as if they took them from some sort of inventory and shoot at you`,
+      choices : [
+         ["tan46","next"]
+    ]
+   },
+tan46 : {
+      text : `You survive that ordeal and you see a man in the distance and you approach him`,
+      choices : [
+         ["tan42","next"]
+    ]
+   },
+tan47 : {
+      text : `You hangout with the homies and suddenly realize they are homeless for a reason`,
+      choices : [
+         ["tan48","next"]
+    ]
+   },
+tan48 : {
+      text : `because they take you inside of their tent in the woods and it has a elavator in it and it goes down to a underground mansion/bunker and they tell you to run and give you 20 minutes to run and hide`,
+      choices : [
+         ["tan52","Stay and fight(there is 3 of them and one of you)"]
+         ["tan50","Run and hide"]
+    ]
+   },
+tan50 : {
+      text : `Stay and fight(there is 3 of them and one of you)`,
+      choices : [
+         ["tan51","next"]
+    ]
+   },
+tan51 : {
+      text : `You run at them like an idiot and they hit you with a pizza themed projectile wepon instantly vaporizing you`,
+      choices : [
+         ["start","next"]
+    ]
+   },
+tan52 : {
+      text : `you turn around sprint 2 corners and see 4 path doors in front of you,A sign above these 4 doors "only one of these are true"`,
+      choices : [
+         ["tan53",`Path 1's door Is a large 12 foot door that says "Exit"`]
+         ["tan54",`Path 2's door is a 10 foot door that says "Pinapple belongs on pizza"`]
+         ["tan55",`Path 3's door is a 14 foot door that says "Peanuts belong on pizza"`]
+         ["tan56",`Path 4's door is a 18 foot door that says "anchovies belong on pizza"`]
+    ]
+   },
+tan53 : {
+      text : `You cracked the door and it snatched you into a room with bees... need i say more?`,
+      choices : [
+         ["start","next"]
+    ]
+   },
+tan54 : {
+      text : `Congratulations!!!!!! you're a normal human being and your opinion is valid about this, you get to move on to the next door this time you see 3 doors and a sign in front of these doors`,
+      choices : [
+         ["tan57","next"]
+    ]
+   },
+tan55 : {
+      text : `You walked into the room and its pitch black and you and its a room filled with peanut butter and you drown in it`,
+      choices : [
+         ["start","next"]
+    ]
+   },
+tan56 : {
+      text : `You touch the door thinking you were right when you were so so so wrong and the door activated and the text changed  to shame door and the door strapped you to a chair and it puts you in a room full of people and they shame you  to death`,
+      choices : [
+         ["start","next"]
+    ]
+   },
+tan57 : {
+      text : `The sign says "who created pizza?"`,
+      choices : [
+         ["tan58","Raffaele Esposito"]
+         ["tan59","Angelo Lombardi"]
+         ["tan60","Pizzarino Huzzario"]
+    ]
+   },
+tan58 : {
+      text : ``,
+      choices : [
+         ["tan59","Raffaele Esposito"]
     ]
    },
 }

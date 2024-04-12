@@ -363,9 +363,39 @@ tan57 : {
     ]
    },
 tan58 : {
-      text : ``,
+      text : `CONGRATULATIONS!!!!!!! you either successfully guessed, searched this up or actually know this random information. anyways you can contine on to the last 2 doors`,
       choices : [
-         ["tan59","Raffaele Esposito"]
+         ["tan61","Raffaele Esposito"]
+    ]
+   },
+tan59 : {
+      text : `You turn into a certified world-renouned mustashed man and you go to attempt to through the worlds largest pizza and butter on the floor makes you and get sufficated by it`,
+      choices : [
+         ["start","next"]
+    ]
+   },
+tan60 : {
+      text : `You might be right for this universe but we're talking about the one you're in right now, you die, no sound no nothing, just death`,
+      choices : [
+         ["start","next"]
+    ]
+   },
+tan61 : {
+      text : `"Two doors stand before you, a choice you must make,
+      One leads to freedom, the other a mistake.
+      One door hides wisdom, the other holds dread,
+      To make the right choice, use the voice in your head.
+      Decide with care, for your fate lies in store,
+      Which door holds the key? The smart one or more?"`,
+      choices : [
+         ["tan62",`The 1st door says "FREEDOM!!"it is painted red white and blue and has bald eagles etched in the door`]
+         ["tan63",`The 2nd door says "Second chance door" you can only assume it's a second chance to join the homies`]
+    ]
+   },
+tan63 : {
+      text : `You pick door 2 and you get put in a endless loop forever`,
+      choices : [
+         ["start","next"]
     ]
    },
 }

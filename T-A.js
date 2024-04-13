@@ -398,4 +398,10 @@ tan63 : {
          ["start","next"]
     ]
    },
+tan62 : {
+      text : `You pick door one probably thinking and saying that you picked the right door because you did. Congratulations!!! you made it through the labrinth, outside the labrinth you see a guy and you have no choice but to approach him`,
+      choices : [
+         ["start","next"]
+    ]
+   },
 }

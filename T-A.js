@@ -401,7 +401,27 @@ tan63 : {
 tan62 : {
       text : `You pick door one probably thinking and saying that you picked the right door because you did. Congratulations!!! you made it through the labrinth, outside the labrinth you see a guy and you have no choice but to approach him`,
       choices : [
-         ["start","next"]
+         ["tan64","next"]
+    ]
+   },
+//you get the legendary naples katana
+tan64 : {
+      text : `The humble craftsman meets you at the end of the labrenth and tosses you one of his wepons and you both slay the homies`,
+      choices : [
+         ["tan65","next"]
+    ]
+   },
+tan65 : {
+      text : `Now that you're safe, you thank the humble craftsman and he replies with"you're welcome" then he tells you to continue down the path and he points to a light at the end of a tunnel`,
+      choices : [
+         ["tan66","next"]
+    ]
+   },
+tan66 : {
+      text : `You make it to the exit of the labrinth and you see the castle of pizzaria what seems a few miles away what will you do next?`,
+      choices : [
+         ["tan65","Travle south"]
+         ["tan42","Head north"]
     ]
    },
 }

@@ -420,8 +420,40 @@ tan65 : {
 tan66 : {
       text : `You make it to the exit of the labrinth and you see the castle of pizzaria what seems a few miles away what will you do next?`,
       choices : [
-         ["tan65","Travle south"]
+         ["tan67","Travle south"]
          ["tan42","Head north"]
+    ]
+   },
+tan67 : {
+      text : `You travle south and see a oddly placed tavern called "PPP" (pedestiran pizza parlor)what is your next move?`,
+      choices : [
+         ["tan68","Approach and enter the parlor"]
+         ["tan69","Swing your sword at the trees around you"]
+    ]
+   },
+tan68 : {
+      text : `You walk into the parlor and out of pure chance you get hit with an axe as soon as you open the door`,
+      choices : [
+         ["start","next"]
+    ]
+   },
+tan69 : {
+      text : `You swing at the trees around you fall. A stranger approaches you and asks you if you're alright`,
+      choices : [
+         ["tan70","next"]
+    ]
+   },
+tan70 : {
+      text : `What do you do?`,
+      choices : [
+         ["tan71","Challange the stranger to battle(because why not)"]
+         ["tan73","Thank the stranger and ask what their name is"]
+    ]
+   },
+tan71 : {
+      text : `Suddenly the stranger raises his hand and a bolt of lightning comes down to smite you`,
+      choices : [
+         ["start","next"]
     ]
    },
 }

@@ -512,8 +512,107 @@ tan80 : {
       text : `You knock on the gate and nobody answers....Knock again?`,
       choices : [
          ["tan81","Yes"]
-         ["tan81","Yes"]
+         ["tan82","No"]
     ]
    },
-
+tan81 : {
+      text : `You knock again First you hear silence a guard is then you hear the 30 foot gate creek then start to open and watch it as it moves down faster then you think and the gate falls on you`,
+      choices : [
+         ["start","next"]
+    ]
+   },
+tan82 : {
+      text : `You feel embarassed after the silence after you knocked fills the area`,
+      choices : [
+         ["tan83","next"]
+    ]
+   },
+tan83 : {
+      text : `You find 2 entrances`,
+      choices : [
+         ["tan84","Enter through a akwardly placed  window of the back of the castle?"]
+         ["tan85","Enter through a hole in the stone wall on the west side of the castle?"]
+    ]
+   },
+tan84 : {
+      text : `You enter through the window without looking through it and you see hundreds of guards eating lunch. They all swarm you and you die piled under 30 guards`,
+      choices : [
+         ["start","next"]
+    ]
+   },
+tan85 : {
+      text : `You both enter through the stone wall and see the castle of pizzario and admire the structural integrity`,
+      choices : [
+         ["tan86","next"]
+    ]
+   },
+tan86 : {
+      text : `Ya'll continue to head twards the castle and  yall enter through the front door`,
+      choices : [
+         ["tan87","next"]
+    ]
+   },
+//fight the 5 guards
+tan87 : {
+      text : `Once you enter the castle you guys are met with 5 silly looking royal guards (the castle seems very understaffed). They apprach you guys and attack`,
+      choices : [
+         ["tan86","next"]
+    ]
+   },
+tan88 : {
+      text : `You both survive this trial and head twards the big doors that appears after the last gard dies`,
+      choices : [
+         ["tan89","next"]
+    ]
+   },
+tan89 : {
+      text : `Will you open the doors?`,
+      choices : [
+         ["tan97","Yes"]
+         ["tan90","No"]
+    ]
+   },
+tan90 : {
+      text : `You just stare the door with pablo right behind you, and you both just kinda do nothing now you have to open the door`,
+      choices : [
+         ["tan91","next"]
+    ]
+   },
+tan91 : {
+      text : `You open the door and you are both met with a room lit by torches with blue flames and a throne room with only pizzaria in it and the door slams behind you guys`,
+      choices : [
+         ["tan92","next"]
+    ]
+   },
+tan92 : {
+      text : `He speaks in his deep voice that shakes the floor and says "Take one more step and i will end your lifes." Will you take the step and do what you've been entending to do?`,
+      choices : [
+         ["tan93","Turn back and cower away?"]
+         ["tan92","Take the step?"]
+    ]
+   },
+tan93 : {
+      text : `You cower away and you see the credits roll in front of you and pablo calls you a coward for quitting then fades into black`,
+      choices : [
+         ["tan94","next"]
+    ]
+   },
+tan95 : {
+      text : `You blackout and "wake up" in a room shrouded in darkness and all of the chareters in the game appear in front of you and start doing a ragdoll like dance then a sign appears in front of you and it says congradulations you got the "coward ending" then everything fades to black and you, and everything stop existing`,
+      choices : [
+         ["tan96","next"]
+    ]
+   },
+tan96 : {
+      text : `The End`,
+      choices : [
+         ["start","next"]
+    ]
+   },
+tan97 : {
+      text : `You and pablo both take the step togeather and everything behind pizzarino is shrouded in black then it looks like pizzarino is charging up an attack`,
+      choices : [
+         ["tan98","next"]
+    ]
+   },
 }

@@ -267,7 +267,7 @@ tan41 : {
 tan42 : {
       text : `you're now on the right path twards the evil demon lords castle`,
       choices : [
-         ["","next"]
+         ["tan113","next"]
     ]
    },
 tan43 : {
@@ -615,4 +615,106 @@ tan97 : {
          ["tan98","next"]
     ]
    },
+tan98 : {
+      text : `You hear a magical hum coming from pizzarino and you start the battle`,
+      choices : [
+         ["tan99","next"]
+    ]
+   },
+//first phase he has the attacks of pizza barage, mozzarella minefeld, and pepperoni projection
+tan99 : {
+   text : `Pizzarino starts slowing down but his attacks get stronger`,
+   choices : [
+      ["tan100","next"]
+ ]
+},
+tan101 : {
+   text : `Pizzarino starts to talk about the reason why he took the pizza and his backstory`,
+   choices : [
+      ["tan102","next"]
+ ]
+},
+//second phase with the calzone catastorophy, pizza wheel whirlwind, and doughy demolition
+tan102 : {
+   text : `His words bring you to tears but you both know that you've made it  too far to stop now`,
+   choices : [
+      ["tan103","next"]
+ ]
+},
+tan103 : {
+   text : `The fight is getting intinse and pizzarino refuses to lose`,
+   choices : [
+      ["tan104","next"]
+ ]
+},
+//THIRD PHASE calzone catastorophy, pizza wheel whirlwind, doughy demolition, pizza barage, mozzarella minefeld, and pepperoni projection
+tan104: {
+   text : `pizzarino determination brings him to use over his full power and shatter his limits`,
+   choices : [
+      ["tan105","next"]
+ ]
+},
+tan105 : {
+   text : `You and pablo finally finish the fight and aquire the golden slices and you and pablo both teleport back to your home where pizzarino and your parents await`,
+   choices : [
+      ["tan106","next"]
+ ]
+},
+tan106 : {
+   text : `You and pablo hand over the staff and the slices to pizzarino and he laughs minacingly then pizzario says "You fools, you gave me everything i needed to take over the world"He says in a different evil sounding voice `,
+   choices : [
+      ["tan107","next"]
+ ]
+},
+tan107 : {
+   text : `You and pablo hand over the staff and the slices to pizzarino and he laughs minacingly then pizzario says "You fools, you gave me everything i needed to take over the world"He says in a different evil sounding voice`,
+   choices : [
+      ["tan108","next"]
+ ]
+},
+//fight pizzarino 
+tan108 : {
+   text : `"Thank you both so much for being so stupid, you didn't even ask who brought you here" Then he challanges you to battle and you know you have to do this fight alone`,
+   choices : [
+      ["tan108","next"]
+ ]
+},
+tan109 : {
+   text : `You beat pizzarino and a portal that seems to like it'll take you home what will you do?`,
+   choices : [
+      ["tan110","Stay"]
+      ["tan112","Go home"]
+ ]
+},
+tan110 : {
+   text : `You stay and live a long and adventurious life and everybody in your real world lives their regular lifes. Congradulations you got the "Main ending"`,
+   choices : [
+      ["tan108","next"]
+ ]
+},
+
+tan111 : {
+   text : `You go home and you're family is mourning your "death" and they all call you a zombie then laugh and they welcome you back and you live the rest of you're life peacefully. Congradulaitons you got the "Home sweet home" ending.`,
+   choices : [
+      ["tan112","next"]
+ ]
+},
+tan112 : {
+   text : `The End?`,
+   choices : [
+      ["start","next"]
+ ]
+},
+tan113 : {
+   text : `You're walking fowards and you barely see the castle of Pizzaria in the distance, it looks thousands of miles away`,
+   choices : [
+      ["tan114","next"]
+ ]
+},
+tan114 : {
+   text : `While you're walking fowards you don't look down and you fall into a ditch almost dieing you're at 10 hp practically about to die and you're surrounded by cheese amalgamations a breed of too much cheese and not enough crust what will you do?`,
+   choices : [
+      ["","next"]
+ ]
+},
 }

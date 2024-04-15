@@ -447,7 +447,7 @@ tan70 : {
       text : `What do you do?`,
       choices : [
          ["tan71","Challange the stranger to battle(because why not)"]
-         ["tan73","Thank the stranger and ask what their name is"]
+         ["tan72","Thank the stranger and ask what their name is"]
     ]
    },
 tan71 : {
@@ -456,4 +456,64 @@ tan71 : {
          ["start","next"]
     ]
    },
+tan72 : {
+      text : `You thank the stranger and and before you ask for a name he introduces himself "Hi my name is pablo pesto i saw you trying to practice and you looked like you were in distress"`,
+      choices : [
+         ["tan73","next"]
+    ]
+   },
+tan73 : {
+      text : `Pablo pesto proceeds to show you how to properly weald your wepon`,
+      choices : [
+         ["tan74","next"]
+    ]
+   },
+tan74 : {
+      text : `you thank him once again, will you befriend Pablo?`,
+      choices : [
+         ["tan76","Yes"]
+         ["tan75","No"]
+    ]
+   },
+tan75 : {
+      text : `Boo. Lame. you get sent to a different storyline because you didn't pick the cooler option`,
+      choices : [
+         ["tan42","next"]
+    ]
+   },
+tan76 : {
+      text : `You befriend pablo pesto then you both run into several ordeals for charecter development so you and pablo are best of friends`,
+      choices : [
+         ["tan77","next"]
+    ]
+   },
+tan77 : {
+      text : `You both journey far and wide and finally make it to castle of pizzaria whats your next move?`,
+      choices : [
+         ["tan80","Knock on the gates"]
+         ["tan77","Search for an alternate entrance"]
+         ["tan78","Trojan horse"]
+         ["tan77","Create a distraction"]
+    ]
+   },
+tan78 : {
+      text : `You and pablo make a trojan horse big enough to fit the both of you and pull a classic torjan horse.`,
+      choices : [
+         ["tan79","next"]
+    ]
+   },
+tan79 : {
+      text : `It works for about day untill you both get tired of sitting in a hot cramped peice of wood and you and pablo leave and are met with hundreds of armed guards and you both get swarmed`,
+      choices : [
+         ["start","next"]
+    ]
+   },
+tan80 : {
+      text : `You knock on the gate and nobody answers....Knock again?`,
+      choices : [
+         ["tan81","Yes"]
+         ["tan81","Yes"]
+    ]
+   },
+
 }

@@ -717,4 +717,10 @@ tan114 : {
       ["","next"]
  ]
 },
+tan115 : {
+   text : `While you're walking fowards you don't look down and you fall into a ditch almost dieing you're at 10 hp practically about to die and you're surrounded by cheese amalgamations a breed of too much cheese and not enough crust what will you do?`,
+   choices : [
+      ["","next"]
+ ]
+},
 }

@@ -711,16 +711,104 @@ tan113 : {
       ["tan114","next"]
  ]
 },
-tan114 : {
-   text : `While you're walking fowards you don't look down and you fall into a ditch almost dieing you're at 10 hp practically about to die and you're surrounded by cheese amalgamations a breed of too much cheese and not enough crust what will you do?`,
-   choices : [
-      ["","next"]
- ]
-},
+
+//Rig it to make the fight to where you can only win if you're about to die
 tan115 : {
    text : `While you're walking fowards you don't look down and you fall into a ditch almost dieing you're at 10 hp practically about to die and you're surrounded by cheese amalgamations a breed of too much cheese and not enough crust what will you do?`,
    choices : [
-      ["","next"]
+      ["tan120","turn around"]
+      ["tan116","Run foward"]
+      ["tan119","Run right"]
+      ["tan121","Stay and fight"]
+ ]
+},
+tan116 : {
+   text : `You run foward and you see a wall and you see a path open up as you approach it, will you enter?`,
+   choices : [
+      ["tan117","Yes"]
+      ["tan118","No"]
+ ]
+},
+tan117 : {
+   text : `You enter the  secret door and it appears to not be a secret because all it is, is a hidey hole that is filled with bones and you soon realize how the amalgamations pass through the solid matter and dispatch you like a navy seal`,
+   choices : [
+      ["start","next"]
+ ]
+},
+tan118 : {
+   text : `You make it to the door and dont go in, and the amalgamations grab you by your ankle and you disolve, you died.`,
+   choices : [
+      ["start","next"]
+ ]
+},
+tan119 : {
+   text : `You run right and see wall. you full on sprinted into a wall. foreshame. You fall unconcious and you get ate`,
+   choices : [
+      ["start","next"]
+ ]
+},
+tan120 : {
+   text : `You turn around and the amalgamations kill you fast then you can say pladapus`,
+   choices : [
+      ["start","next"]
+ ]
+},
+// make fighting please
+//Rig it to make the fight to where you can only win if you're about to die
+tan121 : {
+   text : `Congradulations you made it out alive barely with one hp`,
+   choices : [
+      ["tan122","next"]
+ ]
+},
+//make everything go up by 20
+tan122 : {
+   text : `You have a awakening revalation and you're charecter gains +20 on all of your stats and unbritled motivaiton`,
+   choices : [
+      ["tan123","next"]
+ ]
+},
+tan123 : {
+   text : `You transform into a lean mean pizza eating machine(nothing about you changed about you but now have that dawg in you)`,
+   choices : [
+      ["tan124","next"]
+ ]
+},
+tan124 : {
+   text : `You approach the castle of pizzario what will you do?`,
+   choices : [
+      ["tan125","next"]
+ ]
+},
+tan125 : {
+   text : `Knock on the gates?`,
+   choices : [
+      ["tan126","Yes"]
+      ["tan128","Look for alternitive entrances"]
+ ]
+},
+tan126 : {
+   text : `You knock again `,
+   choices : [
+      ["tan127","next"]
+ ]
+},
+tan127 : {
+   text : `First you hear silence a guard is  then you hear the 30 foot gate creek then start to open and watch it as it moves down faster then you think  and the gate falls on you`,
+   choices : [
+      ["start","next"]
+ ]
+},
+tan128 : {
+   text : `as you look around the perimater you find a soft path of soil that feels like you could almost dig through it`,
+   choices : [
+      ["tan129","next"]
+ ]
+},
+tan126 : {
+   text : `You knock again`,
+   choices : [
+      ["tan127","next"]
  ]
 },
 }

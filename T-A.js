@@ -800,15 +800,178 @@ tan127 : {
  ]
 },
 tan128 : {
-   text : `as you look around the perimater you find a soft path of soil that feels like you could almost dig through it`,
+   text : `as you look around the perimater you find a soft path of soil that feels like you could almost dig through it what do you do?`,
    choices : [
-      ["tan129","next"]
+      ["tan130","Dig through the patch?"]
+      ["tan129","ignore it?"]
  ]
 },
-tan126 : {
-   text : `You knock again`,
+tan129 : {
+   text : `You ignore the path and realize there are no entrances you go back`,
    choices : [
-      ["tan127","next"]
+      ["tan125","next"]
+ ]
+},
+tan130 : {
+   text : `dig through the patch?`,
+   choices : [
+      ["tan131","next"]
+ ]
+},
+tan131 : {
+   text : `you find yourself in the castles kitchen where the chefs are making spagetti`,
+   choices : [
+      ["tan132","next"]
+ ]
+},
+//fight 3 spegetti chefs
+tan132 : {
+   text : `After you fight the chefs you steal all of their marrinerra sauce and explore the castle`,
+   choices : [
+      ["tan133","next"]
+ ]
+},
+tan133 : {
+   text : `as you explore the castle you are met with three doors (two of which you cant come back from)`,
+   choices : [
+      ["tan138","infront of you is a very large door with skulls on the front"]
+      ["tan134","a door with glowing light perecing through the crack of itself"]
+      ["tan135","a average sized door nothing too special"]
+ ]
+},
+tan134 : {
+   text : `you open the door only for your mortal body to be blasted into the abiss of light. as you feel your soul leaches out of your body it is pulled twords a strange tall man who take in in his and and puts it into a lantern. your death had caught up to you, it waited too long`,
+   choices : [
+      ["start","next"]
+ ]
+},
+tan135 : {
+   text : `opening the door you see two chests and a bottle`,
+   choices : [
+      ["tan136","next"]
+ ]
+},
+//recive the olive oil flame thrower, a suply of olive oil, and 2 stacks of breadsticks
+tan136 : {
+   text : `you open the two chest and recive the olive oil flame thrower, a suply of olive oil, and 2 stacks of breadsticks`,
+   choices : [
+      ["tan137","next"]
+ ]
+},
+tan137 : {
+   text : `you exit the room feeling more confident for what awaits next. you notice the dark door calls you forth`,
+   choices : [
+      ["tan138","next"]
+ ]
+},
+tan138 : {
+   text : `you open the door and is met by the boss himself, pizzario, and hes appauled on how you snuck in`,
+   choices : [
+      ["tan139","next"]
+ ]
+},
+// you fight pizzario
+tan139 : {
+   text : `nonetheless, he initiates the battle`,
+   choices : [
+      ["tan138","next"]
+ ]
+},
+tan140 : {
+   text : `you win the battle`,
+   choices : [
+      ["tan141","next"]
+ ]
+},
+tan141 : {
+   text : `winning the battle doesnt mean the slices of life are safe you must bring them together using the magic staff`,
+   choices : [
+      ["tan142","next"]
+ ]
+},
+tan142 : {
+   text : `you walk out of the room into the larger plan siting infront of a giant oven`,
+   choices : [
+      ["tan143","next"]
+ ]
+},
+tan143 : {
+   text : `you cast the special degorinos degree which metls the slices of life back together forming a full pizza again`,
+   choices : [
+      ["tan144","next"]
+ ]
+},
+tan144 : {
+   text : `pizzarino spawns in and greats you telling you youve done a great ordeal to humaity. the world is put back into order and you can finally rest in peace`,
+   choices : [
+      ["tan145","next"]
+ ]
+},
+tan145 : {
+   text : `before you wake up from your dream you must make it home`,
+   choices : [
+      ["tan146","next"]
+ ]
+},
+tan146 : {
+   text : `you arrive home and as you open the door you sence the feeling of accomplishemnt`,
+   choices : [
+      ["tan147","next"]
+ ]
+},
+tan147 : {
+   text : `your body slowly starts to de-materialize. as your vision fades away you regain consusness in your body int the real world. you are met by a pizza truck driver who is shruging you and calls nine one one. your eyes close. then are re-opend by doctors picking you away and flashing lights`,
+   choices : [
+      ["tan148","next"]
+ ]
+},
+tan148 : {
+   text : `eyes close and re-open. youre rushed around the office.`,
+   choices : [
+      ["tan149","next"]
+ ]
+},
+tan150 : {
+   text : `6 days later...`,
+   choices : [
+      ["tan151","next"]
+ ]
+},
+tan151 : {
+   text : `as you wake up a grone leaves your body. You then see pizzarino. `,
+   choices : [
+      ["tan152","next"]
+ ]
+},
+tan152 : {
+   text : `Standing there he says, "Youve done well be there is still evil out there. will you join me?''`,
+   choices : [
+      ["tan153",`"Yes i will gladly."`]
+      ["tan156",`"No, why would i want to go back?"`]
+ ]
+},
+tan153 : {
+   text : `You are accepted back in and you a brought to be king of pizzealia.`,
+   choices : [
+      ["tan151","next"]
+ ]
+},
+tan154 : {
+   text : `The End....`,
+   choices : [
+      ["tan155","next"]
+ ]
+},
+tan155 : {
+   text : `To be continued.`,
+   choices : [
+      ["start","next"]
+ ]
+},
+tan156 : {
+   text : `YOU ARE KILLED ON THE SPOT. BRUTALLY THROW OUT THE WINDOW AND EATEN ALIVE BY CLOWN SNAKES`,
+   choices : [
+      ["start","next"]
  ]
 },
 }

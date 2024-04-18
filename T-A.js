@@ -1,3 +1,4 @@
+console.log('js works')
 const player = {
    health: 100,
    inventory: [
@@ -9,6 +10,7 @@ const player = {
 console.log(player.inventory)
 
 const story = {
+
 start : {
     text : "It's currently 8:pm and Ze is asleep (your name is ze). your alarm makes you wake up. Then you wakes up and realizes hes late for a pizza lovers convention (for some reason they happen at night). You are rushed out of the house and decided to pick an outfit but only has 3",
     choices : [
@@ -81,9 +83,9 @@ tan10 : {
 tan11 : {
       text : `"Will you help me?"`,
       choices : [
-         ["tan12",`tell Pizzarino that you need to stay here and protect your "family"`]
-         ["tan13",`tell Pizzarino that "you dont want to because you're in a new world with new people and a whole lot of pizza"`]
-         ["tan14",`tell Pizzarino no and that you want to explore the world on your own`]
+         ["tan12",`tell Pizzarino that you need to stay here and protect your "family"`],
+         ["tan13",`tell Pizzarino that "you dont want to because you're in a new world with new people and a whole lot of pizza"`],
+         ["tan14",`tell Pizzarino no and that you want to explore the world on your own`],
          ["tan15",`ask  pizzarino what he knows about you`]
     ]
    },
@@ -108,7 +110,7 @@ tan13 : {
 tan17 : {
       text : `What will you do?`,
       choices : [
-         ["tan18","Let everyone die"]
+         ["tan18","Let everyone die"],
          ["tan19","Set off on an amazing adventure"]
     ]
    },
@@ -183,8 +185,8 @@ tan26 : {
 tan26 : {
       text : `north of you, you see a crimson sky and a terrifying path with skulls on the side of the road,in front of you; you see a regular park path, South of you; see some type of peper flake path that looks majestic, maybe even suspiciously peaceful `,
       choices : [
-         ["tan28","Front"]
-         ["tan43","North"]
+         ["tan28","Front"],
+         ["tan43","North"],
          ["tan28","South"]
     ]
    },
@@ -203,7 +205,7 @@ tan29 : {
 tan30 : {
       text : `Will you join them?`,
       choices : [
-         ["tan31","say no"]
+         ["tan31","say no"],
          ["tan36","say yes"]
     ]
    },
@@ -235,19 +237,19 @@ tan36 : {
 tan37 : {
       text : `A humble craftsman wants you to see his wares will you see them?`,
       choices : [
-         ["tan38","Yes"]
+         ["tan38","Yes"],
          ["tan41","No"]
     ]
    },
 tan38 : {
       text : `a scary dude named pepino the wicked comes at you and makes a cheesesplosion to himself nearly ending his own life, you awkwardly walk past this man and you see a man in the distance and you approach him`,
       choices : [
-         ["tan39","Cheese cutter blade"]
-         ["tan39","Sausage slicer"]
-         ["tan39","Basil grenade launcher"]
-         ["tan39","Tomato Tosser"]
-         ["tan39","Moterella morning star"]
-         ["tan39","Marrinerra mace"]
+         ["tan39","Cheese cutter blade"],
+         ["tan39","Sausage slicer"],
+         ["tan39","Basil grenade launcher"],
+         ["tan39","Tomato Tosser"],
+         ["tan39","Moterella morning star"],
+         ["tan39","Marrinerra mace"],
          ["tan39","Breadstick brrage"]
     ]
    },
@@ -279,7 +281,7 @@ tan43 : {
 tan44 : {
       text : `The homeless man approaches you,the homeless man asks you to join his homeless armada, they call themselfs the homies, will you join them?`,
       choices : [
-         ["tan45","no"]
+         ["tan45","no"],
          ["tan47","Yes"]
     ]
    },
@@ -305,7 +307,7 @@ tan47 : {
 tan48 : {
       text : `because they take you inside of their tent in the woods and it has a elavator in it and it goes down to a underground mansion/bunker and they tell you to run and give you 20 minutes to run and hide`,
       choices : [
-         ["tan52","Stay and fight(there is 3 of them and one of you)"]
+         ["tan52","Stay and fight(there is 3 of them and one of you)"],
          ["tan50","Run and hide"]
     ]
    },
@@ -324,9 +326,9 @@ tan51 : {
 tan52 : {
       text : `you turn around sprint 2 corners and see 4 path doors in front of you,A sign above these 4 doors "only one of these are true"`,
       choices : [
-         ["tan53",`Path 1's door Is a large 12 foot door that says "Exit"`]
-         ["tan54",`Path 2's door is a 10 foot door that says "Pinapple belongs on pizza"`]
-         ["tan55",`Path 3's door is a 14 foot door that says "Peanuts belong on pizza"`]
+         ["tan53",`Path 1's door Is a large 12 foot door that says "Exit"`],
+         ["tan54",`Path 2's door is a 10 foot door that says "Pinapple belongs on pizza"`],
+         ["tan55",`Path 3's door is a 14 foot door that says "Peanuts belong on pizza"`],
          ["tan56",`Path 4's door is a 18 foot door that says "anchovies belong on pizza"`]
     ]
    },
@@ -357,8 +359,8 @@ tan56 : {
 tan57 : {
       text : `The sign says "who created pizza?"`,
       choices : [
-         ["tan58","Raffaele Esposito"]
-         ["tan59","Angelo Lombardi"]
+         ["tan58","Raffaele Esposito"],
+         ["tan59","Angelo Lombardi"],
          ["tan60","Pizzarino Huzzario"]
     ]
    },
@@ -388,7 +390,7 @@ tan61 : {
       Decide with care, for your fate lies in store,
       Which door holds the key? The smart one or more?"`,
       choices : [
-         ["tan62",`The 1st door says "FREEDOM!!"it is painted red white and blue and has bald eagles etched in the door`]
+         ["tan62",`The 1st door says "FREEDOM!!"it is painted red white and blue and has bald eagles etched in the door`],
          ["tan63",`The 2nd door says "Second chance door" you can only assume it's a second chance to join the homies`]
     ]
    },
@@ -420,14 +422,14 @@ tan65 : {
 tan66 : {
       text : `You make it to the exit of the labrinth and you see the castle of pizzaria what seems a few miles away what will you do next?`,
       choices : [
-         ["tan67","Travle south"]
+         ["tan67","Travle south"],
          ["tan42","Head north"]
     ]
    },
 tan67 : {
       text : `You travle south and see a oddly placed tavern called "PPP" (pedestiran pizza parlor)what is your next move?`,
       choices : [
-         ["tan68","Approach and enter the parlor"]
+         ["tan68","Approach and enter the parlor"],
          ["tan69","Swing your sword at the trees around you"]
     ]
    },
@@ -446,7 +448,7 @@ tan69 : {
 tan70 : {
       text : `What do you do?`,
       choices : [
-         ["tan71","Challange the stranger to battle(because why not)"]
+         ["tan71","Challange the stranger to battle(because why not)"],
          ["tan72","Thank the stranger and ask what their name is"]
     ]
    },
@@ -471,7 +473,7 @@ tan73 : {
 tan74 : {
       text : `you thank him once again, will you befriend Pablo?`,
       choices : [
-         ["tan76","Yes"]
+         ["tan76","Yes"],
          ["tan75","No"]
     ]
    },
@@ -490,9 +492,9 @@ tan76 : {
 tan77 : {
       text : `You both journey far and wide and finally make it to castle of pizzaria whats your next move?`,
       choices : [
-         ["tan80","Knock on the gates"]
-         ["tan77","Search for an alternate entrance"]
-         ["tan78","Trojan horse"]
+         ["tan80","Knock on the gates"],
+         ["tan77","Search for an alternate entrance"],
+         ["tan78","Trojan horse"],
          ["tan77","Create a distraction"]
     ]
    },
@@ -511,7 +513,7 @@ tan79 : {
 tan80 : {
       text : `You knock on the gate and nobody answers....Knock again?`,
       choices : [
-         ["tan81","Yes"]
+         ["tan81","Yes"],
          ["tan82","No"]
     ]
    },
@@ -530,7 +532,7 @@ tan82 : {
 tan83 : {
       text : `You find 2 entrances`,
       choices : [
-         ["tan84","Enter through a akwardly placed  window of the back of the castle?"]
+         ["tan84","Enter through a akwardly placed  window of the back of the castle?"],
          ["tan85","Enter through a hole in the stone wall on the west side of the castle?"]
     ]
    },
@@ -568,7 +570,7 @@ tan88 : {
 tan89 : {
       text : `Will you open the doors?`,
       choices : [
-         ["tan97","Yes"]
+         ["tan97","Yes"],
          ["tan90","No"]
     ]
    },
@@ -587,7 +589,7 @@ tan91 : {
 tan92 : {
       text : `He speaks in his deep voice that shakes the floor and says "Take one more step and i will end your lifes." Will you take the step and do what you've been entending to do?`,
       choices : [
-         ["tan93","Turn back and cower away?"]
+         ["tan93","Turn back and cower away?"],
          ["tan92","Take the step?"]
     ]
    },
@@ -682,7 +684,7 @@ tan108 : {
 tan109 : {
    text : `You beat pizzarino and a portal that seems to like it'll take you home what will you do?`,
    choices : [
-      ["tan110","Stay"]
+      ["tan110","Stay"],
       ["tan112","Go home"]
  ]
 },
@@ -716,9 +718,9 @@ tan113 : {
 tan115 : {
    text : `While you're walking fowards you don't look down and you fall into a ditch almost dieing you're at 10 hp practically about to die and you're surrounded by cheese amalgamations a breed of too much cheese and not enough crust what will you do?`,
    choices : [
-      ["tan120","turn around"]
-      ["tan116","Run foward"]
-      ["tan119","Run right"]
+      ["tan120","turn around"],
+      ["tan116","Run foward"],
+      ["tan119","Run right"],
       ["tan121","Stay and fight"]
  ]
 },
@@ -783,7 +785,7 @@ tan124 : {
 tan125 : {
    text : `Knock on the gates?`,
    choices : [
-      ["tan126","Yes"]
+      ["tan126","Yes"],
       ["tan128","Look for alternitive entrances"]
  ]
 },
@@ -802,7 +804,7 @@ tan127 : {
 tan128 : {
    text : `as you look around the perimater you find a soft path of soil that feels like you could almost dig through it what do you do?`,
    choices : [
-      ["tan130","Dig through the patch?"]
+      ["tan130","Dig through the patch?"],
       ["tan129","ignore it?"]
  ]
 },
@@ -834,8 +836,8 @@ tan132 : {
 tan133 : {
    text : `as you explore the castle you are met with three doors (two of which you cant come back from)`,
    choices : [
-      ["tan138","infront of you is a very large door with skulls on the front"]
-      ["tan134","a door with glowing light perecing through the crack of itself"]
+      ["tan138","infront of you is a very large door with skulls on the front"],
+      ["tan134","a door with glowing light perecing through the crack of itself"],
       ["tan135","a average sized door nothing too special"]
  ]
 },
@@ -946,7 +948,7 @@ tan151 : {
 tan152 : {
    text : `Standing there he says, "Youve done well be there is still evil out there. will you join me?''`,
    choices : [
-      ["tan153",`"Yes i will gladly."`]
+      ["tan153",`"Yes i will gladly."`],
       ["tan156",`"No, why would i want to go back?"`]
  ]
 },
@@ -975,3 +977,38 @@ tan156 : {
  ]
 },
 }
+
+let storyContainer = document.getElementById("story");
+    storyContainer.innerHTML = "";
+    let buttonContainer = document.createElement("buttons");
+    for(let i = 0; i < 3; i++){
+        buttonContainer.innerHTML = story.start.text;
+        document.body.appendChild(buttonContainer);
+      }
+
+function printStory(text) {
+   let pageNow = storage[storage.length - 1];
+   storyContainer.innerHTML = "";
+   buttonContainer.innerHTML = "";
+   for(let page of storage){
+       createStory(story[page].text);
+   }
+   for (let choice of story[pageNow].choices){
+   makeButton(choice[1], choice[0])
+   }
+}
+function createStory(text){
+   let storyItem = document.createElement("p");
+
+   storyItem.innerText = text;
+
+   storyContainer.appendChild(storyItem);
+}
+function createStory(text){
+   let storyItem = document.createElement("p");
+
+   storyItem.innerText = text;
+
+   storyContainer.appendChild(storyItem);
+}
+printStory(story.start.text);

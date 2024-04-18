@@ -730,7 +730,7 @@ tan116 : {
  ]
 },
 tan117 : {
-   text : `You enter the  secret door and it appears to not be a secret because all it is, is a hidey hole that is filled with bones and you soon realize how the amalgamations pass through the solid matter and dispatch you like a navy seal`,
+   text : `You enter the secret door and it appears to not be a secret because all it is, is a hidey hole that is filled with bones and you soon realize how the amalgamations pass through the solid matter and dispatch you like a navy seal`,
    choices : [
       ["start","next"]
  ]

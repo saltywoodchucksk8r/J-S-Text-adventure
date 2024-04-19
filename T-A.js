@@ -36,7 +36,7 @@ tan3 : {
  text : "You pick your outfit and you leave the house",
  choices : [
     ["tan4","Next"]
-   //  player[inventory]
+
  ]
 },
 tan4 : {
@@ -978,7 +978,7 @@ tan156 : {
  ]
 },
 }
-//taken from taber sand's halo restitution un
+//taken from taber sand's halo restitution, Thank you taber
 let storyContainer = document.getElementById("story");
     storyContainer.innerHTML = "";
     let buttonContainer = document.createElement("buttons");

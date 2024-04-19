@@ -1,12 +1,22 @@
 body {
-    display: flex;
-    justify-content: center;
+    margin: 0;
 }
 
 header {
 background-color: rgb(132, 153, 239);
-width: 197vh;
-height: 2vw;
+/* width: 100vw; */
 text-align: center;
 margin-top: 10px;
+}
+.flexDaddy {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#story,
+# {
+    width: 80%;
 }

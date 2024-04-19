@@ -1,4 +1,5 @@
 console.log('js works')
+
 const player = {
    health: 100,
    inventory: [
@@ -977,7 +978,7 @@ tan156 : {
  ]
 },
 }
-
+//taken from taber sand's halo restitution un
 let storyContainer = document.getElementById("story");
     storyContainer.innerHTML = "";
     let buttonContainer = document.createElement("buttons");
@@ -985,6 +986,20 @@ let storyContainer = document.getElementById("story");
         buttonContainer.innerHTML = story.start.text;
         document.body.appendChild(buttonContainer);
       }
+
+      let storage = ["start"];
+ function makeButton(btnText, choice){
+   let button = document.createElement("button");
+     
+    button.innerHTML = btnText;
+     
+    buttonContainer.appendChild(button);
+     
+   button.addEventListener("click", function(){
+       storage.push(choice);
+         printStory();
+         });
+     }
 
 function printStory(text) {
    let pageNow = storage[storage.length - 1];

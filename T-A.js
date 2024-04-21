@@ -1019,11 +1019,5 @@ function createStory(text){
 
    storyContainer.appendChild(storyItem);
 }
-function createStory(text){
-   let storyItem = document.createElement("p");
-
-   storyItem.innerText = text;
-
-   storyContainer.appendChild(storyItem);
-}
 printStory(story.start.text);
+//taken from taber sand's halo restitution, Thank you taber

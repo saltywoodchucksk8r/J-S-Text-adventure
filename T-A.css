@@ -16,7 +16,6 @@ margin-top: 10px;
     flex-direction: column;
 }
 
-#story,
-# {
+#story,#button {
     width: 80%;
 }

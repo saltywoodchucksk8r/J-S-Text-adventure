@@ -13,7 +13,7 @@ console.log(player.inventory)
 const story = {
 
 start : {
-    text : "It's currently 8:pm and Ze is asleep (your name is ze). your alarm makes you wake up. Then you wakes up and realizes hes late for a pizza lovers convention (for some reason they happen at night). You are rushed out of the house and decided to pick an outfit but only has 3",
+    text : "It's currently 8:pm and Ze is asleep (your name is ze). your alarm makes you wake up. Then you wake up and realizes hes late for a pizza lovers convention (for some reason they happen at night). You are rushed out of the house and decided to pick an outfit but only have 3",
     choices : [
         ["tan1","The meat lovers outfit"],
         ["tan2","The pizza lovers outfit"],
@@ -46,13 +46,13 @@ tan4 : {
  ]
 },
 tan5 : {
-    text : "ze opens their eyes Suddenly and realizes they are no longer in their own world",
+    text : "ze opens their eyes and suddenly and realizes they are no longer in their own world",
     choices : [
        ["tan6","Next"]
     ]
    },
  tan6 : {
-    text : "ze sees a new world ridden with pizza all over it, the buildings and the houses everywhere you look theres pizza",
+    text : "ze sees a new world ridden with pizza, the buildings and the houses everywhere you look theres pizza",
     choices : [
        ["tan7","Next"]
     ]
@@ -64,7 +64,7 @@ tan7 : {
     ]
    },
 tan8 : {
-    text : "You hear a magical noise and a  white beirded man in a yellow cloak with red spots appears in front of you looking confused and sweaty",
+    text : "You hear a magical noise and a white beirded man in a yellow cloak with red spots appears in front of you looking confused and sweaty",
     choices : [
        ["tan9","Next"]
     ]

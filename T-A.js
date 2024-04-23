@@ -711,7 +711,7 @@ tan112 : {
 tan113 : {
    text : `You're walking fowards and you barely see the castle of Pizzaria in the distance, it looks thousands of miles away`,
    choices : [
-      ["tan114","next"]
+      ["tan115","next"]
  ]
 },
 

@@ -151,32 +151,37 @@ const story = {
          ["tan19", "Next"]
       ]
    },
-   tan22: {
-      text: `you see the outside of the three meat forest and you see a barder  and it looks as if you owe it something`,
-      choices: [
-         ["tan23", "Next"]
-      ]
+tan22 : {
+      text : `you see the outside of the three meat forest and you see a barder  and it looks as if you owe it something`,
+      choices : [
+         ["tan23","Next"]
+    ]
    },
-
-   //Ask mr fast or the internet how to make turn based fighing
-   tan23: {
-      text: `you fight the barder which seems to be the gardian of the forest`,
-      choices: [
-         ["tan24", "Next"]
-      ]
+tan157 : {
+      text : `The barder approaches you, what will you do?`,
+      choices : [
+         ["tan","Next"]
+    ]
    },
-   tan24: {
-      text: `you see the outside of the three meat forest and you see a barder  and it looks as if you owe it something`,
-      choices: [
-         ["tan25", "Next"]
-      ]
+//Ask mr fast or the internet how to make turn based fighing
+tan23 : {
+      text : `you fight the barder which seems to be the gardian of the forest`,
+      choices : [
+         ["tan24","Next"]
+    ]
    },
-   // Make it to where if your health goes to Zero the screen turns red
-   tan25: {
-      text: `you run into a guy holding a hanger and he picks a fight`,
-      choices: [
-         ["tan26", "Next"]
-      ]
+tan24 : {
+      text : `you see the outside of the three meat forest and you see a barder  and it looks as if you owe it something`,
+      choices : [
+         ["tan25","Next"]
+    ]
+   },
+// Make it to where if your health goes to Zero the screen turns red
+tan25 : {
+      text : `you run into a guy holding a hanger and he picks a fight`,
+      choices : [
+         ["tan26","Next"]
+    ]
    },
    tan26: {
       text: `you travel deeper into the forest and you see 3 paths in front of you`,

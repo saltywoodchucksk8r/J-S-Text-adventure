@@ -157,6 +157,12 @@ tan22 : {
          ["tan23","Next"]
     ]
    },
+tan157 : {
+      text : `The barder approaches you, what will you do?`,
+      choices : [
+         ["tan","Next"]
+    ]
+   },
 //Ask mr fast or the internet how to make turn based fighing
 tan23 : {
       text : `you fight the barder which seems to be the gardian of the forest`,

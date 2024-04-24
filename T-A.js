@@ -197,6 +197,14 @@ tan25 : {
          ["tan28", "South"]
       ]
    },
+
+tan28: {
+      text: `as you travel north you notice the path is singed with burn marks and skulls scattered across on the road`,
+      choices: [
+         ["tan29", "next"]
+      ]
+   },
+
    tan28: {
       text: `as you travel north you notice the path is singed with burn marks and skulls scattered across on the road`,
       choices: [

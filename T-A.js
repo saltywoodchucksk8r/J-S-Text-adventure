@@ -154,33 +154,73 @@ tan21 : {
 tan22 : {
       text : `you see the outside of the three meat forest and you see a barder  and it looks as if you owe it something`,
       choices : [
-         ["tan23","Next"]
+         ["tan158","Next"]
     ]
    },
 tan157 : {
       text : `The barder approaches you, what will you do?`,
       choices : [
-         ["tan","Next"]
+         ["tan158","Fight barder"]
     ]
    },
-//Ask mr fast or the internet how to make turn based fighing
+tan158 : {
+      text : `you choose to fight and the barder swings a big twig overhead, what is your next move`,
+      choices : [
+         ["tan159","Next"]
+    ]
+   },
+tan159 : {
+      text : `Dodge foward`,
+      choices : [
+         ["tan160","You SURE you wana do this???"],
+         ["tan161", "Dodge right"],
+         ["tan162", "Dodge left"],
+         ["tan163", "Dodge backwards"]
+    ]
+   },
+
+tan160 : {
+      text : `You instantly get crushed into a pancake`,
+      choices : [
+         ["start"]
+    ]
+   },
+tan161 : {
+      text : `you dodge right and you turn`,
+      choices : [
+         ["tan23","next"]
+    ]
+   },
+tan162 : {
+      text : `You dodge left and clumsily fall into a pile of pizza moss and DIE`,
+      choices : [
+         ["start","next"]
+    ]
+   },
+
+tan163 : {
+      text : `You dodge backwards and a mushroom propells you fowards and you DIE`,
+      choices : [
+         ["start","next"]
+    ]
+   },
 tan23 : {
       text : `you fight the barder which seems to be the gardian of the forest`,
       choices : [
-         ["tan24","Next"]
+         ["tan24","next"]
     ]
    },
 tan24 : {
       text : `you see the outside of the three meat forest and you see a barder  and it looks as if you owe it something`,
       choices : [
-         ["tan25","Next"]
+         ["tan25","next"]
     ]
    },
 // Make it to where if your health goes to Zero the screen turns red
 tan25 : {
       text : `you run into a guy holding a hanger and he picks a fight`,
       choices : [
-         ["tan26","Next"]
+         ["tan26","next"]
     ]
    },
 tan26 : {

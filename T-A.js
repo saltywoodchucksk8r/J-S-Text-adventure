@@ -192,8 +192,8 @@ tan25 : {
    tan26: {
       text: `north of you, you see a crimson sky and a terrifying path with skulls on the side of the road,in front of you; you see a regular park path, South of you; see some type of peper flake path that looks majestic, maybe even suspiciously peaceful `,
       choices: [
-         ["tan28", "Front"],
-         ["tan43", "North"],
+         ["tan43", "Front"],
+         ["tan28", "North"],
          ["tan28", "South"]
       ]
    },
@@ -220,7 +220,14 @@ tan28: {
    tan30: {
       text: `Will you join them?`,
       choices: [
-         ["tan31", "say no"],
+         ["tan32", "say no"],
+         ["tan36", "say yes"]
+      ]
+   },
+   tan32: {
+      text: `Will you join them?`,
+      choices: [
+         ["tan32", "say no"],
          ["tan36", "say yes"]
       ]
    },

@@ -76,7 +76,7 @@ const story = {
       ]
    },
    tan10: {
-      text: "I need your help, i was chilling in my tower and all of a sudden the evil demon lord pizzaria stole the 8 slices that hold enough power to destroy our world. Luckily I have the pizza staff which is the only last piece stopping him from destroying the world. Please go retrieve our 8 slices and save the world from destroying the world",
+      text: "I need your help, i was chilling in my tower and all of a sudden the evil demon lord pizzaria stole the 8 slices that hold enough power to destroy our world. Luckily I have the pizza staff which is the only last piece stopping him from destroying the world. Please go retrieve our 8 slices of life and you must save the world from it's destruction.",
       choices: [
          ["tan11", "Next"]
       ]
@@ -97,7 +97,7 @@ const story = {
       ]
    },
    tan16: {
-      text: `You never hear from pizzarino again and your new world slowly breaks out into chaos and you see the world open up and swallow everything up and you see pizzario in th edistance casting some sort of spell ad you live for about 10 more seconds before the world explodes killing eveyone including you`,
+      text: `You never hear from pizzarino again and your new world slowly breaks out into chaos and you see the world open up and swallow everything up and you see pizzario in the distance casting some sort of spell ad you live for about 10 more seconds before the world explodes killing eveyone including you`,
       choices: [
          ["start", "Next"]
       ]
@@ -166,9 +166,9 @@ tan157 : {
  tan158 : {
       text : `you choose to fight and the barder swings a big twig overhead, what is your next move`,
       choices : [
-         ["tan159","Dodge Foward"]
-         ["tan160","Dodge Right"]
-         ["tan161","Dodge Left"]
+         ["tan159","Dodge Foward"],
+         ["tan160","Dodge Right"],
+         ["tan161","Dodge Left"],
          ["tan162","Dodge Backwards"]
     ]
    },
@@ -370,7 +370,7 @@ tan28: {
    //make a theoretical if then statemnt for if your health goes to zero 
 
 
-   
+
    tan45: {
       text: `The homeless people pull out guns from behind their backs as if they took them from some sort of inventory and shoot at you`,
       choices: [
@@ -843,7 +843,7 @@ tan28: {
       ]
    },
    tan120: {
-      text: `You turn around and the amalgamations kill you fast then you can say pladapus`,
+      text: `You turn around and the amalgamations kill you faster then you can say pladapus`,
       choices: [
          ["start", "next"]
       ]
@@ -864,7 +864,7 @@ tan28: {
       ]
    },
    tan123: {
-      text: `You transform into a lean mean pizza eating machine(nothing about you changed about you but now have that dawg in you)`,
+      text: `You transform into a lean, mean, pizza eating machine(nothing about you changed about you but now have that dawg in you)`,
       choices: [
          ["tan124", "next"]
       ]
@@ -971,9 +971,10 @@ tan28: {
    tan139: {
       text: `nonetheless, he initiates the battle`,
       choices: [
-         ["tan138", "next"]
+         ["tan140", "next"]
       ]
    },
+
    tan140: {
       text: `you win the battle`,
       choices: [

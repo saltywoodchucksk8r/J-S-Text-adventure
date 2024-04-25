@@ -160,27 +160,69 @@ tan22 : {
 tan157 : {
       text : `The barder approaches you, what will you do?`,
       choices : [
-         ["tan","Next"]
+         ["tan158","Fight the barder"]
     ]
    },
-//Make this fight sam
+ tan158 : {
+      text : `you choose to fight and the barder swings a big twig overhead, what is your next move`,
+      choices : [
+         ["tan159","Dodge Foward"]
+         ["tan160","Dodge Right"]
+         ["tan161","Dodge Left"]
+         ["tan162","Dodge Backwards"]
+    ]
+   },
+ tan159 : {
+      text : `You instantly get crushed into a pancake`,
+      choices : [
+         ["start"]
+    ]
+   },
+
+   tan160 : {
+      text : `You dodge right and you turn to open for a attack `,
+      choices : [
+         ["tan163", "Attack"]
+    ]
+   },
+
+   tan161 : {
+      text : `You dodge left and clumsily fall into a pile of pizza moss and DIE!!!!!!!!!`,
+      choices : [
+         ["start"]
+    ]
+   },
+   tan162 : {
+      text : `You dodge backwards and a mushroom propells you fowards and you DIE!!!!!!!!!!`,
+      choices : [
+         ["start"]
+    ]
+   },
+
+   tan163 : {
+      text : `You lash at the bader hiting him for a WHOPING 70DMG. He humbley accespts defeat and lets you pass throuth the forest.`,
+      choices : [
+         ["start"]
+    ]
+   },
+
 tan23 : {
-      text : `you fight the barder which seems to be the gardian of the forest`,
+      text : `after you fight the barder which seems to be the gardian of the forest you continue on your journey.`,
       choices : [
          ["tan24","Next"]
     ]
    },
 tan24 : {
-      text : `you see the outside of the three meat forest and you see a barder  and it looks as if you owe it something`,
+      text : `you see the outside of the three meat forest and you see a barder and it looks as if you owe it something`,
       choices : [
-         ["tan25","Next"]
+         ["tan25","Continue walking"]
     ]
    },
-//Make this fight sam
+
 tan25 : {
-      text : `you run into a guy holding a hanger and he picks a fight`,
+      text : `you then run into a guy holding a hanger and he picks a fight`,
       choices : [
-         ["tan26","Next"]
+         ["tan26","RUN AWAY!!!!"]
     ]
    },
    tan26: {
@@ -227,8 +269,8 @@ tan28: {
    tan32: {
       text: `Will you join them?`,
       choices: [
-         ["tan32", "say no"],
-         ["tan36", "say yes"]
+         ["tan31", "say yes"],
+         ["tan34", "say no"]
       ]
    },
    tan31: {
@@ -247,16 +289,32 @@ tan28: {
    tan34: {
       text: `The hob goblins are offended, now you have to fight them (4 hobgoblins)`,
       choices: [
-         ["tan35", "next"]
+         ["tan35", "INITIATE ATTACK"]
       ]
    },
-   // Make this fight sam
+
+   tan35: {
+      text: `You SLASH at one of the goblins hiting him for 60DMG, CRITICAL HIT`,
+      choices: [
+         ["tan165", "next goblin"]
+      ]
+   },
+  
+   tan35: {
+      text: `Using your Mastery attcking skills you spin and slash all three hobgoblins making their guts spill everywhere`,
+      choices: [
+         ["tan36", "next"]
+      ]
+   },
+
    tan36: {
       text: `a scary dude named pepino the wicked comes at you and makes a cheesesplosion to himself nearly ending his own life, you awkwardly walk past this man and you see a man in the distance and you approach him`,
       choices: [
          ["tan37", "next"]
       ]
    },
+
+
    //make it to where if you pick an item it says something different
    tan37: {
       text: `A humble craftsman wants you to see his wares will you see them?`,
@@ -277,7 +335,7 @@ tan28: {
          ["tan39", "Breadstick brrage"]
       ]
    },
-   tan37: {
+   tan39: {
       text: `"Thank you kind fellow"`,
       choices: [
          ["tan42", "next"]
@@ -310,6 +368,9 @@ tan28: {
       ]
    },
    //make a theoretical if then statemnt for if your health goes to zero 
+
+
+   
    tan45: {
       text: `The homeless people pull out guns from behind their backs as if they took them from some sort of inventory and shoot at you`,
       choices: [
@@ -573,7 +634,7 @@ tan28: {
       ]
    },
    tan86: {
-      text: `Ya'll continue to head twards the castle and  yall enter through the front door`,
+      text: `Ya'll continue to head twards the castle and yall enter through the front door`,
       choices: [
          ["tan164", "next"]
       ]

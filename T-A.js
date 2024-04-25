@@ -243,13 +243,14 @@ tan28: {
          ["start", "next"]
       ]
    },
-// Make this fight sam
+
    tan34: {
       text: `The hob goblins are offended, now you have to fight them (4 hobgoblins)`,
       choices: [
          ["tan35", "next"]
       ]
    },
+   // Make this fight sam
    tan36: {
       text: `a scary dude named pepino the wicked comes at you and makes a cheesesplosion to himself nearly ending his own life, you awkwardly walk past this man and you see a man in the distance and you approach him`,
       choices: [
@@ -744,7 +745,7 @@ tan28: {
          ["tan115", "next"]
       ]
    },
-
+// Make this fight sam
    //Rig it to make the fight to where you can only win if you're about to die
    tan115: {
       text: `While you're walking fowards you don't look down and you fall into a ditch almost dieing you're at 10 hp practically about to die and you're surrounded by cheese amalgamations a breed of too much cheese and not enough crust what will you do?`,
@@ -786,7 +787,7 @@ tan28: {
          ["start", "next"]
       ]
    },
-   // make fighting please
+// Make this fight sam
    //Rig it to make the fight to where you can only win if you're about to die
    tan121: {
       text: `Congradulations you made it out alive barely with one hp`,
@@ -857,6 +858,7 @@ tan28: {
          ["tan132", "next"]
       ]
    },
+// Make this fight sam
    //fight 3 spegetti chefs
    tan132: {
       text: `After you fight the chefs you steal all of their marrinerra sauce and explore the castle`,
@@ -884,7 +886,7 @@ tan28: {
          ["tan136", "next"]
       ]
    },
-   //recive the olive oil flame thrower, a suply of olive oil, and 2 stacks of breadsticks
+
    tan136: {
       text: `you open the two chest and recive the olive oil flame thrower, a suply of olive oil, and 2 stacks of breadsticks`,
       choices: [
@@ -903,6 +905,7 @@ tan28: {
          ["tan139", "next"]
       ]
    },
+// Make this fight sam
    // you fight pizzario
    tan139: {
       text: `nonetheless, he initiates the battle`,

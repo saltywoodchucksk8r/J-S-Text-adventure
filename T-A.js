@@ -59,7 +59,7 @@ const story = {
    },
    tan7: {
       text: "You return to your house where you are greeted by your parents who have chef hats on with a weird greasy pizza stench",
-      choices: [
+      choices:  [
          ["tan8", "Next"]
       ]
    },
@@ -163,7 +163,7 @@ tan157 : {
          ["tan","Next"]
     ]
    },
-//Ask mr fast or the internet how to make turn based fighing
+//Make this fight sam
 tan23 : {
       text : `you fight the barder which seems to be the gardian of the forest`,
       choices : [
@@ -176,7 +176,7 @@ tan24 : {
          ["tan25","Next"]
     ]
    },
-// Make it to where if your health goes to Zero the screen turns red
+//Make this fight sam
 tan25 : {
       text : `you run into a guy holding a hanger and he picks a fight`,
       choices : [
@@ -243,6 +243,7 @@ tan28: {
          ["start", "next"]
       ]
    },
+// Make this fight sam
    tan34: {
       text: `The hob goblins are offended, now you have to fight them (4 hobgoblins)`,
       choices: [
@@ -576,8 +577,7 @@ tan28: {
          ["tan164", "next"]
       ]
    },
-   //fight the 5 guards
-
+   // Make this fight sam
    tan164: {
       text: `Once you enter the castle you guys are met with 5 silly looking royal guards (the castle seems very understaffed). They apprach you guys and attack`,
       choices: [
@@ -653,6 +653,7 @@ tan28: {
          ["tan99", "next"]
       ]
    },
+   // Make this fight sam
    //first phase he has the attacks of pizza barage, mozzarella minefeld, and pepperoni projection
    tan99: {
       text: `Pizzarino starts slowing down but his attacks get stronger`,
@@ -704,7 +705,7 @@ tan28: {
          ["tan108", "next"]
       ]
    },
-   //fight pizzarino 
+  // Make this fight sam
    tan108: {
       text: `"Thank you both so much for being so stupid, you didn't even ask who brought you here" Then he challanges you to battle and you know you have to do this fight alone`,
       choices: [

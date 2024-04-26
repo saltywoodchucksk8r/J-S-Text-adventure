@@ -16,7 +16,28 @@ margin-top: 10px;
     flex-direction: column;
 }
 
-#story,#button {
-    width: 80%;
+.buttons {
+    display:  flex;
+    flex-flow: row wrap;
+    width: 80vw;
+    margin: 0 auto;
+    gap:1em;
+    justify-content: center;
 }
 
+.buttons > button {
+    padding: 1em;
+    color: red;
+    background-color: blanchedalmond;
+    
+}
+
+#story {
+    width: 80%;
+    font-size: large;
+}
+
+/* #pleaseWork {
+    font-size: large;
+    color: red;
+} */

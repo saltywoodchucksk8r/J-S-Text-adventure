@@ -13,7 +13,7 @@ console.log(player.inventory)
 const story = {
 
    start: {
-      text: "It's currently 8pm and Ze (youre Ze) is asleep. your alarm goes off and you wake up. You take a moment to collect yourself and then you, realize YOURE LATE FOR A PIZZA LOVERS CONVENTION (for some reason they happen at night). You then assertivly rush of the door out of the house BUT you realize YOU FORGOT AND OUTFIT!!! You run back inside to pick one of 3 outfits, which will you choose?",
+      text: "It's currently 8pm and Ze (youre Ze) is asleep. your alarm goes off and you wake up. You take a moment to collect yourself and then you, realize you're late for the pizza convention (for some reason they only happen at night). You then assertivly rush of the door out of the house but you realize you forgot to put on clothes. You run back inside to pick one of 3 outfits, which will you choose?",
       choices: [
          ["tan1", "The meat lovers outfit"],
          ["tan2", "The pizza lovers outfit"],
@@ -33,7 +33,7 @@ const story = {
       ]
    },
    tan3: {
-      text: "You decided to pick the 'The cheesed-outfit', nice and drippy. You look at your 'Cheesus loves you' shirt and exit the house with a grin on your face.",
+      text: `You decided to pick the 'The cheesed-outfit', nice and drippy. You look at your "Cheesus loves you" shirt and exit the house with a grin on your face.`,
       choices: [
          ["tan4", "Next"]
 
@@ -64,7 +64,7 @@ const story = {
       ]
    },
    tan8: {
-      text: "You hear a magical noise and a white beirded man in a yellow cloak with red spots appears in front of you looking confused and sweaty",
+      text: "You hear a magical noise and a white bearded man in a yellow cloak with red spots appears in front of you looking confused and sweaty",
       choices: [
          ["tan9", "Next"]
       ]
@@ -76,7 +76,7 @@ const story = {
       ]
    },
    tan10: {
-      text: "I need your help, i was chilling in my tower and all of a sudden the evil demon lord pizzaria stole the 8 slices that hold enough power to destroy our world. Luckily I have the pizza staff which is the only last piece stopping him from destroying the world. Please go retrieve our 8 slices of life and you must save the world from it's destruction.",
+      text: "I need your help, I was chilling in my tower and all of a sudden the evil demon lord pizzaria stole the 8 slices that hold enough power to destroy our world. Luckily I have the pizza staff which is the only last piece stopping him from destroying the world. Please go retrieve our 8 slices of life and you must save the world from it's destruction.",
       choices: [
          ["tan11", "Next"]
       ]
@@ -140,7 +140,7 @@ const story = {
       ]
    },
    tan15: {
-      text: `Pizzarino responds with "I know everything, i know this isn't your original world and i know this is you're just a human but i since some sort of power in you that nobody else has here"`,
+      text: `Pizzarino responds with "I know everything, I know this isn't your original world and I know this is you're just a human but I since some sort of power in you that nobody else has here"`,
       choices: [
          ["tan21", "Next"]
       ]
@@ -412,7 +412,7 @@ tan28: {
       ]
    },
    tan53: {
-      text: `You cracked the door and it snatched you into a room with bees... need i say more?`,
+      text: `You cracked the door and it snatched you into a room with bees... need I say more?`,
       choices: [
          ["start", "next"]
       ]
@@ -430,7 +430,7 @@ tan28: {
       ]
    },
    tan56: {
-      text: `You touch the door thinking you were right when you were so so so wrong and the door activated and the text changed  to shame door and the door strapped you to a chair and it puts you in a room full of people and they shame you  to death`,
+      text: `You touch the door thinking you were right when you were so so so wrong and the door activated and the text changed  to shame door and the door strapped you to a chair and it puts you in a room full of people and they shame you to death`,
       choices: [
          ["start", "next"]
       ]
@@ -538,7 +538,7 @@ tan28: {
       ]
    },
    tan72: {
-      text: `You thank the stranger and and before you ask for a name he introduces himself "Hi my name is pablo pesto i saw you trying to practice and you looked like you were in distress"`,
+      text: `You thank the stranger and and before you ask for a name he introduces himself "Hi my name is pablo pesto I saw you trying to practice and you looked like you were in distress"`,
       choices: [
          ["tan73", "next"]
       ]
@@ -673,7 +673,7 @@ tan28: {
       ]
    },
    tan92: {
-      text: `He speaks in his deep voice that shakes the floor and says "Take one more step and i will end your lifes." Will you take the step and do what you've been entending to do?`,
+      text: `He speaks in his deep voice that shakes the floor and says "Take one more step and I will end your lifes." Will you take the step and do what you've been entending to do?`,
       choices: [
          ["tan93", "Turn back and cower away?"],
          ["tan92", "Take the step?"]
@@ -750,13 +750,13 @@ tan28: {
       ]
    },
    tan106: {
-      text: `You and pablo hand over the staff and the slices to pizzarino and he laughs minacingly then pizzario says "You fools, you gave me everything i needed to take over the world"He says in a different evil sounding voice `,
+      text: `You and pablo hand over the staff and the slices to pizzarino and he laughs minacingly then pizzario says "You fools, you gave me everything I needed to take over the world"He says in a different evil sounding voice `,
       choices: [
          ["tan107", "next"]
       ]
    },
    tan107: {
-      text: `You and pablo hand over the staff and the slices to pizzarino and he laughs minacingly then pizzario says "You fools, you gave me everything i needed to take over the world"He says in a different evil sounding voice`,
+      text: `You and pablo hand over the staff and the slices to pizzarino and he laughs minacingly then pizzario says "You fools, you gave me everything I needed to take over the world"He says in a different evil sounding voice`,
       choices: [
          ["tan108", "next"]
       ]
@@ -1012,7 +1012,7 @@ tan28: {
       ]
    },
    tan147: {
-      text: `your body slowly starts to de-materialize. as your vision fades away you regain consusness in your body int the real world. you are met by a pizza truck driver who is shruging you and calls nine one one. your eyes close. then are re-opend by doctors picking you away and flashing lights`,
+      text: `your body slowly starts to de-materialize. as your vision fades away you regain consusness in your body in the real world. you are met by a pizza truck driver who is shruging you and call nine one one. your eyes close. then are re-opend by doctors picking you away and flashing lights`,
       choices: [
          ["tan148", "next"]
       ]
@@ -1038,8 +1038,8 @@ tan28: {
    tan152: {
       text: `Standing there he says, "Youve done well be there is still evil out there. will you join me?''`,
       choices: [
-         ["tan153", `"Yes i will gladly."`],
-         ["tan156", `"No, why would i want to go back?"`]
+         ["tan153", `"Yes I will gladly."`],
+         ["tan156", `"No, why would I want to go back?"`]
       ]
    },
    tan153: {

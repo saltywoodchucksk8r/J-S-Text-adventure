@@ -70,7 +70,7 @@ const story = {
       ]
    },
    tan9: {
-      text: "The man introduces himself and says <hey Ze im the great wizard Pizzarino",
+      text: `The man introduces himself and says "hey Ze im the great wizard Pizzarino"`,
       choices: [
          ["tan10", "Next"]
       ]
@@ -355,7 +355,7 @@ tan28: {
       ]
    },
    tan44: {
-      text: `The homeless man approaches you,the homeless man asks you to join his homeless armada, they call themselfs the homies, will you join them?`,
+      text: `The homeless man approaches you,the homeless man asks you to join his homeless armada, they call themselves the homies, will you join them?`,
       choices: [
          ["tan45", "no"],
          ["tan47", "Yes"]
@@ -803,7 +803,7 @@ tan28: {
 // Make this fight sam
    //Rig it to make the fight to where you can only win if you're about to die
    tan115: {
-      text: `While you're walking fowards you don't look down and you fall into a ditch almost dieing you're at 10 hp practically about to die and you're surrounded by cheese amalgamations a breed of too much cheese and not enough crust what will you do?`,
+      text: `While you're walking fowards you don't look down and you fall into a ditch almost dying you're at 10 hp practically about to die and you're surrounded by cheese amalgamations a breed of too much cheese and not enough crust what will you do?`,
       choices: [
          ["tan120", "turn around"],
          ["tan116", "Run foward"],
@@ -814,7 +814,7 @@ tan28: {
    tan116: {
       text: `You run foward and you see a wall and you see a path open up as you approach it, will you enter?`,
       choices: [
-         ["tan117", "Yes"]
+         ["tan117", "Yes"],
          ["tan118", "No"]
       ]
    },
@@ -1063,14 +1063,20 @@ tan28: {
    tan156: {
       text: `YOU ARE KILLED ON THE SPOT. BRUTALLY THROW OUT THE WINDOW AND EATEN ALIVE BY CLOWN SNAKES`,
       choices: [
-         ["start", "next"]
+         ["death", "next"]
       ]
    },
+   death: {
+   text: "You died",
+   choices : [
+      ["start", "restart"]
+   ]
+},
 }
 //taken from taber sand's halo restitution, Thank you taber
 let storyContainer = document.getElementById("story");
 storyContainer.innerHTML = "";
-let buttonContainer = document.createElement("buttons");
+let buttonContainer = document.getElementById("buttons");
 for (let i = 0; i < 3; i++) {
    buttonContainer.innerHTML = story.start.text;
    document.body.appendChild(buttonContainer);
@@ -1111,3 +1117,13 @@ function createStory(text) {
 }
 printStory(story.start.text);
 //taken from taber sand's halo restitution, Thank you taber
+
+// let change = document.getElementById("pleaseWork")
+
+// function changeColor(color) {
+//    document.body.style.background = color;
+// }
+// function myFunc(){
+//    changeColor('red');
+//    result.innerHTML = "YOU DIED";
+// }

@@ -11,7 +11,7 @@ background-color: rgb(233, 110, 110);
 /* width: 100vw; */
 text-align: center;
 margin-top: 10px;
-
+font-size: xx-large
 }
 .flexDaddy {
     width: 100%;
@@ -25,6 +25,7 @@ margin-top: 10px;
     width: 80%;
 }
 
+<<<<<<< Updated upstream
 
 /* Button stuff. idk if ima get this working so let me know if you can */
 .button {
@@ -96,3 +97,14 @@ margin-top: 10px;
 
 
 
+=======
+.almendra-sc-regular,header {
+    font-family: "Almendra SC", serif;
+    font-weight: 400;
+    font-style: large;
+  }
+/* #pleaseWork {
+    font-size: large;
+    color: red;
+} */
+>>>>>>> Stashed changes

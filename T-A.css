@@ -1,12 +1,17 @@
+
+/* Bakground Color */
+
 body {
     margin: 0;
+    background-color:bisque ;
 }
 
 header {
-background-color: rgb(132, 153, 239);
+background-color: rgb(233, 110, 110);
 /* width: 100vw; */
 text-align: center;
 margin-top: 10px;
+
 }
 .flexDaddy {
     width: 100%;
@@ -33,6 +38,9 @@ margin-top: 10px;
 }
 
 #story {
+=======
+#story,.button {
+>>>>>>> main
     width: 80%;
     font-size: large;
 }

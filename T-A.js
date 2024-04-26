@@ -13,7 +13,7 @@ console.log(player.inventory)
 const story = {
 
    start: {
-      text: "It's currently 8:pm and Ze is asleep (your name is ze). your alarm makes you wake up. Then you wake up and realizes hes late for a pizza lovers convention (for some reason they happen at night). You are rushed out of the house and decided to pick an outfit but only have 3",
+      text: "It's currently 8pm and Ze (youre Ze) is asleep. your alarm goes off and you wake up. You take a moment to collect yourself and then you, realize YOURE LATE FOR A PIZZA LOVERS CONVENTION (for some reason they happen at night). You then assertivly rush of the door out of the house BUT you realize YOU FORGOT AND OUTFIT!!! You run back inside to pick one of 3 outfits, which will you choose?",
       choices: [
          ["tan1", "The meat lovers outfit"],
          ["tan2", "The pizza lovers outfit"],
@@ -21,38 +21,38 @@ const story = {
       ]
    },
    tan1: {
-      text: "You pick your outfit and you leave the house",
+      text: "You pick out 'The meat lovers outfit' , oooo snazyyy and then leave the house",
       choices: [
          ["tan4", "Next"]
       ]
    },
    tan2: {
-      text: "You pick your outfit and you leave the house",
+      text: "You decide your pick is the 'The pizza lovers outfit', classic choice, never can go wrong with a classic. You leave the house.",
       choices: [
          ["tan4", "Next"]
       ]
    },
    tan3: {
-      text: "You pick your outfit and you leave the house",
+      text: "You decided to pick the 'The cheesed-outfit', nice and drippy. You look at your 'Cheesus loves you' shirt and exit the house with a grin on your face.",
       choices: [
          ["tan4", "Next"]
 
       ]
    },
    tan4: {
-      text: "ze starts running across the street and a 5 ton pizza truck hauling an unholy amount of pizza and ze dies",
+      text: "Ze starts running across the street and a 5 ton pizza truck hauling an unholy amount of pizza and Ze dies",
       choices: [
          ["tan5", "Next"]
       ]
    },
    tan5: {
-      text: "ze opens their eyes and suddenly and realizes they are no longer in their own world",
+      text: "Ze opens their eyes and suddenly and realizes they are no longer in their own world",
       choices: [
          ["tan6", "Next"]
       ]
    },
    tan6: {
-      text: "ze sees a new world ridden with pizza, the buildings and the houses everywhere you look theres pizza",
+      text: "Ze sees a new world ridden with pizza, the buildings and the houses everywhere you look theres pizza",
       choices: [
          ["tan7", "Next"]
       ]
@@ -76,7 +76,7 @@ const story = {
       ]
    },
    tan10: {
-      text: "I need your help, i was chilling in my tower and all of a sudden the evil demon lord pizzaria stole the 8 slices that hold enough power to destroy our world. Luckily I have the pizza staff which is the only last piece stopping him from destroying the world. Please go retrieve our 8 slices and save the world from destroying the world",
+      text: "I need your help, i was chilling in my tower and all of a sudden the evil demon lord pizzaria stole the 8 slices that hold enough power to destroy our world. Luckily I have the pizza staff which is the only last piece stopping him from destroying the world. Please go retrieve our 8 slices of life and you must save the world from it's destruction.",
       choices: [
          ["tan11", "Next"]
       ]
@@ -97,7 +97,7 @@ const story = {
       ]
    },
    tan16: {
-      text: `You never hear from pizzarino again and your new world slowly breaks out into chaos and you see the world open up and swallow everything up and you see pizzario in th edistance casting some sort of spell ad you live for about 10 more seconds before the world explodes killing eveyone including you`,
+      text: `You never hear from pizzarino again and your new world slowly breaks out into chaos and you see the world open up and swallow everything up and you see pizzario in the distance casting some sort of spell ad you live for about 10 more seconds before the world explodes killing eveyone including you`,
       choices: [
          ["start", "Next"]
       ]
@@ -160,27 +160,69 @@ tan22 : {
 tan157 : {
       text : `The barder approaches you, what will you do?`,
       choices : [
-         ["tan","Next"]
+         ["tan158","Fight the barder"]
     ]
    },
-//Make this fight sam
+ tan158 : {
+      text : `you choose to fight and the barder swings a big twig overhead, what is your next move`,
+      choices : [
+         ["tan159","Dodge Foward"],
+         ["tan160","Dodge Right"],
+         ["tan161","Dodge Left"],
+         ["tan162","Dodge Backwards"]
+    ]
+   },
+ tan159 : {
+      text : `You instantly get crushed into a pancake`,
+      choices : [
+         ["start"]
+    ]
+   },
+
+   tan160 : {
+      text : `You dodge right and you turn to open for a attack `,
+      choices : [
+         ["tan163", "Attack"]
+    ]
+   },
+
+   tan161 : {
+      text : `You dodge left and clumsily fall into a pile of pizza moss and DIE!!!!!!!!!`,
+      choices : [
+         ["start"]
+    ]
+   },
+   tan162 : {
+      text : `You dodge backwards and a mushroom propells you fowards and you DIE!!!!!!!!!!`,
+      choices : [
+         ["start"]
+    ]
+   },
+
+   tan163 : {
+      text : `You lash at the bader hiting him for a WHOPING 70DMG. He humbley accespts defeat and lets you pass throuth the forest.`,
+      choices : [
+         ["start"]
+    ]
+   },
+
 tan23 : {
-      text : `you fight the barder which seems to be the gardian of the forest`,
+      text : `after you fight the barder which seems to be the gardian of the forest you continue on your journey.`,
       choices : [
          ["tan24","Next"]
     ]
    },
 tan24 : {
-      text : `you see the outside of the three meat forest and you see a barder  and it looks as if you owe it something`,
+      text : `you see the outside of the three meat forest and you see a barder and it looks as if you owe it something`,
       choices : [
-         ["tan25","Next"]
+         ["tan25","Continue walking"]
     ]
    },
-//Make this fight sam
+
 tan25 : {
-      text : `you run into a guy holding a hanger and he picks a fight`,
+      text : `you then run into a guy holding a hanger and he picks a fight`,
       choices : [
-         ["tan26","Next"]
+         ["tan26","RUN AWAY!!!!"]
     ]
    },
    tan26: {
@@ -220,17 +262,11 @@ tan28: {
    tan30: {
       text: `Will you join them?`,
       choices: [
-         ["tan32", "say no"],
-         ["tan36", "say yes"]
+         ["tan31", "say yes"],
+         ["tan34", "say no"]
       ]
    },
-   tan32: {
-      text: `Will you join them?`,
-      choices: [
-         ["tan32", "say no"],
-         ["tan36", "say yes"]
-      ]
-   },
+   
    tan31: {
       text: `You go off to spend the rest of your life as a hobgoblin over the years you slowly turn into a hob goblin`,
       choices: [
@@ -247,16 +283,32 @@ tan28: {
    tan34: {
       text: `The hob goblins are offended, now you have to fight them (4 hobgoblins)`,
       choices: [
-         ["tan35", "next"]
+         ["tan35", "INITIATE ATTACK"]
       ]
    },
-   // Make this fight sam
+
+   tan35: {
+      text: `You SLASH at one of the goblins hiting him for 60DMG, CRITICAL HIT`,
+      choices: [
+         ["tan165", "next goblin"]
+      ]
+   },
+  
+   tan35: {
+      text: `Using your Mastery attcking skills you spin and slash all three hobgoblins making their guts spill everywhere`,
+      choices: [
+         ["tan36", "next"]
+      ]
+   },
+
    tan36: {
       text: `a scary dude named pepino the wicked comes at you and makes a cheesesplosion to himself nearly ending his own life, you awkwardly walk past this man and you see a man in the distance and you approach him`,
       choices: [
          ["tan37", "next"]
       ]
    },
+
+
    //make it to where if you pick an item it says something different
    tan37: {
       text: `A humble craftsman wants you to see his wares will you see them?`,
@@ -277,7 +329,7 @@ tan28: {
          ["tan39", "Breadstick brrage"]
       ]
    },
-   tan37: {
+   tan39: {
       text: `"Thank you kind fellow"`,
       choices: [
          ["tan42", "next"]
@@ -310,6 +362,9 @@ tan28: {
       ]
    },
    //make a theoretical if then statemnt for if your health goes to zero 
+
+
+
    tan45: {
       text: `The homeless people pull out guns from behind their backs as if they took them from some sort of inventory and shoot at you`,
       choices: [
@@ -573,7 +628,7 @@ tan28: {
       ]
    },
    tan86: {
-      text: `Ya'll continue to head twards the castle and  yall enter through the front door`,
+      text: `Ya'll continue to head twards the castle and yall enter through the front door`,
       choices: [
          ["tan164", "next"]
       ]
@@ -782,7 +837,7 @@ tan28: {
       ]
    },
    tan120: {
-      text: `You turn around and the amalgamations kill you fast then you can say pladapus`,
+      text: `You turn around and the amalgamations kill you faster then you can say pladapus`,
       choices: [
          ["start", "next"]
       ]
@@ -803,7 +858,7 @@ tan28: {
       ]
    },
    tan123: {
-      text: `You transform into a lean mean pizza eating machine(nothing about you changed about you but now have that dawg in you)`,
+      text: `You transform into a lean, mean, pizza eating machine(nothing about you changed about you but now have that dawg in you)`,
       choices: [
          ["tan124", "next"]
       ]
@@ -910,9 +965,10 @@ tan28: {
    tan139: {
       text: `nonetheless, he initiates the battle`,
       choices: [
-         ["tan138", "next"]
+         ["tan140", "next"]
       ]
    },
+
    tan140: {
       text: `you win the battle`,
       choices: [

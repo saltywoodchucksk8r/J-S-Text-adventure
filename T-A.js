@@ -357,7 +357,7 @@ tan28: {
    tan44: {
       text: `The homeless man approaches you,the homeless man asks you to join his homeless armada, they call themselves the homies, will you join them?`,
       choices: [
-         ["tan45", "no"],
+         ["tan45", "No"],
          ["tan47", "Yes"]
       ]
    },

@@ -34,11 +34,12 @@ font-size: xx-large
     color: red;
     background-color: blanchedalmond;
     border-radius: 20px;
+    font-size: 1.2rem;
 }
 
 #story,.button {
     width: 80%;
-    font-size: large;
+    font-size:x-large
 }
 
 .almendra-sc-regular,header {

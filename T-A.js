@@ -13,7 +13,7 @@ console.log(player.inventory)
 const story = {
 
    start: {
-      text: "It's currently 8:pm and Ze is asleep (your name is ze). your alarm makes you wake up. Then you wake up and realizes hes late for a pizza lovers convention (for some reason they happen at night). You are rushed out of the house and decided to pick an outfit but only have 3",
+      text: "It's currently 8pm and Ze (youre Ze) is asleep. your alarm goes off and you wake up. You take a moment to collect yourself and then you, realize YOURE LATE FOR A PIZZA LOVERS CONVENTION (for some reason they happen at night). You then assertivly rush of the door out of the house BUT you realize YOU FORGOT AND OUTFIT!!! You run back inside to pick one of 3 outfits, which will you choose?",
       choices: [
          ["tan1", "The meat lovers outfit"],
          ["tan2", "The pizza lovers outfit"],
@@ -21,38 +21,38 @@ const story = {
       ]
    },
    tan1: {
-      text: "You pick your outfit and you leave the house",
+      text: "You pick out 'The meat lovers outfit' , oooo snazyyy and then leave the house",
       choices: [
          ["tan4", "Next"]
       ]
    },
    tan2: {
-      text: "You pick your outfit and you leave the house",
+      text: "You decide your pick is the 'The pizza lovers outfit', classic choice, never can go wrong with a classic. You leave the house.",
       choices: [
          ["tan4", "Next"]
       ]
    },
    tan3: {
-      text: "You pick your outfit and you leave the house",
+      text: "You decided to pick the 'The cheesed-outfit', nice and drippy. You look at your 'Cheesus loves you' shirt and exit the house with a grin on your face.",
       choices: [
          ["tan4", "Next"]
 
       ]
    },
    tan4: {
-      text: "ze starts running across the street and a 5 ton pizza truck hauling an unholy amount of pizza and ze dies",
+      text: "Ze starts running across the street and a 5 ton pizza truck hauling an unholy amount of pizza and Ze dies",
       choices: [
          ["tan5", "Next"]
       ]
    },
    tan5: {
-      text: "ze opens their eyes and suddenly and realizes they are no longer in their own world",
+      text: "Ze opens their eyes and suddenly and realizes they are no longer in their own world",
       choices: [
          ["tan6", "Next"]
       ]
    },
    tan6: {
-      text: "ze sees a new world ridden with pizza, the buildings and the houses everywhere you look theres pizza",
+      text: "Ze sees a new world ridden with pizza, the buildings and the houses everywhere you look theres pizza",
       choices: [
          ["tan7", "Next"]
       ]
@@ -262,17 +262,11 @@ tan28: {
    tan30: {
       text: `Will you join them?`,
       choices: [
-         ["tan32", "say no"],
-         ["tan36", "say yes"]
-      ]
-   },
-   tan32: {
-      text: `Will you join them?`,
-      choices: [
          ["tan31", "say yes"],
          ["tan34", "say no"]
       ]
    },
+   
    tan31: {
       text: `You go off to spend the rest of your life as a hobgoblin over the years you slowly turn into a hob goblin`,
       choices: [

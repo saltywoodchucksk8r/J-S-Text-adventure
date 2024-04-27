@@ -80,10 +80,10 @@ const story = {
    tan11: {
       text: `"Will you help me?"`,
       choices: [
-         ["tan12", `tell Pizzarino that you need to stay here and protect your "family"`],
-         ["tan13", `tell Pizzarino that "you dont want to because you're in a new world with new people and a whole lot of pizza"`],
-         ["tan14", `tell Pizzarino no and that you want to explore the world on your own`],
-         ["tan15", `ask  pizzarino what he knows about you`]
+         ["tan12", `Tell Pizzarino that you need to stay here and protect your "family"`],
+         ["tan13", `Tell Pizzarino that "you dont want to because you're in a new world with new people and a whole lot of pizza"`],
+         ["tan14", `Tell Pizzarino no and that you want to explore the world on your own`],
+         ["tan15", `Ask  pizzarino what he knows about you`]
       ]
    },
    tan12: {
@@ -830,7 +830,7 @@ tan400: {
    tan115: {
       text: `While you're walking fowards you don't look down and you fall into a ditch almost dying you're at 10 hp practically about to die and you're surrounded by cheese amalgamations a breed of too much cheese and not enough crust what will you do?`,
       choices: [
-         ["tan120", "turn around"],
+         ["tan120", "Turn around"],
          ["tan116", "Run foward"],
          ["tan119", "Run right"],
          ["tan121", "Stay and fight"]

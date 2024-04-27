@@ -1,15 +1,5 @@
 console.log('js works')
 
-const player = {
-   health: 100,
-   inventory: [
-      'anItem',
-      'anotherItem'
-   ]
-}
-
-console.log(player.inventory)
-
 const story = {
 
    start: {
@@ -99,7 +89,7 @@ const story = {
    tan16: {
       text: `You never hear from pizzarino again and your new world slowly breaks out into chaos and you see the world open up and swallow everything up and you see pizzario in the distance casting some sort of spell ad you live for about 10 more seconds before the world explodes killing eveyone including you`,
       choices: [
-         ["start", "Next"]
+         ["death", "Next"]
       ]
    },
    tan13: {
@@ -118,7 +108,7 @@ const story = {
    tan18: {
       text: `Pizzarino. utterly shocked unleashes all unholy high hell on you killing you and your family`,
       choices: [
-         ["start", "Next"]
+         ["death", "Next"]
       ]
    },
    tan19: {
@@ -136,7 +126,7 @@ const story = {
    tan20: {
       text: `You make a gesture that the three meat guardian takes as a sign that you want to fight and the guardian kills you with one hit (you stood no chance)`,
       choices: [
-         ["start", "Next"]
+         ["death", "Next"]
       ]
    },
    tan15: {
@@ -175,7 +165,7 @@ tan157 : {
  tan159 : {
       text : `You instantly get crushed into a pancake`,
       choices : [
-         ["start"]
+         ["death"]
     ]
    },
 
@@ -189,20 +179,20 @@ tan157 : {
    tan161 : {
       text : `You dodge left and clumsily fall into a pile of pizza moss and DIE!!!!!!!!!`,
       choices : [
-         ["start"]
+         ["death", "next"]
     ]
    },
    tan162 : {
       text : `You dodge backwards and a mushroom propells you fowards and you DIE!!!!!!!!!!`,
       choices : [
-         ["start"]
+         ["death", "next"]
     ]
    },
 
    tan163 : {
       text : `You lash at the bader hiting him for a WHOPING 70DMG. He humbley accespts defeat and lets you pass throuth the forest.`,
       choices : [
-         ["start"]
+         ["death"]
     ]
    },
 
@@ -276,7 +266,7 @@ tan28: {
    tan33: {
       text: `one day, somone comes through the forest and you ask them if they want to join and with no words they slaughter you, your family, and your kind`,
       choices: [
-         ["start", "next"]
+         ["death", "next"]
       ]
    },
 
@@ -338,7 +328,7 @@ tan28: {
    tan41: {
       text: `The humble craftsman turns mad after you neglect his kind offer and in a flash murders you sllicing you in half with his perfected wepon`,
       choices: [
-         ["start", "next"]
+         ["death", "next"]
       ]
    },
    // tan42 is the meeting point
@@ -399,7 +389,7 @@ tan28: {
    tan51: {
       text: `You run at them like an idiot and they hit you with a pizza themed projectile wepon instantly vaporizing you`,
       choices: [
-         ["start", "next"]
+         ["death", "next"]
       ]
    },
    tan52: {
@@ -414,7 +404,7 @@ tan28: {
    tan53: {
       text: `You cracked the door and it snatched you into a room with bees... need I say more?`,
       choices: [
-         ["start", "next"]
+         ["death", "next"]
       ]
    },
    tan54: {
@@ -426,13 +416,13 @@ tan28: {
    tan55: {
       text: `You walked into the room and its pitch black and you and its a room filled with peanut butter and you drown in it`,
       choices: [
-         ["start", "next"]
+         ["death", "next"]
       ]
    },
    tan56: {
       text: `You touch the door thinking you were right when you were so so so wrong and the door activated and the text changed  to shame door and the door strapped you to a chair and it puts you in a room full of people and they shame you to death`,
       choices: [
-         ["start", "next"]
+         ["death", "next"]
       ]
    },
    tan57: {
@@ -452,13 +442,13 @@ tan28: {
    tan59: {
       text: `You turn into a certified world-renouned mustashed man and you go to attempt to through the worlds largest pizza and butter on the floor makes you and get sufficated by it`,
       choices: [
-         ["start", "next"]
+         ["death", "next"]
       ]
    },
    tan60: {
       text: `You might be right for this universe but we're talking about the one you're in right now, you die, no sound no nothing, just death`,
       choices: [
-         ["start", "next"]
+         ["death", "next"]
       ]
    },
    tan61: {
@@ -476,7 +466,7 @@ tan28: {
    tan63: {
       text: `You pick door 2 and you get put in a endless loop forever`,
       choices: [
-         ["start", "next"]
+         ["death", "next"]
       ]
    },
    tan62: {
@@ -515,7 +505,7 @@ tan28: {
    tan68: {
       text: `You walk into the parlor and out of pure chance you get hit with an axe as soon as you open the door`,
       choices: [
-         ["start", "next"]
+         ["death", "next"]
       ]
    },
    tan69: {
@@ -534,7 +524,7 @@ tan28: {
    tan71: {
       text: `Suddenly the stranger raises his hand and a bolt of lightning comes down to smite you`,
       choices: [
-         ["start", "next"]
+         ["death", "next"]
       ]
    },
    tan72: {
@@ -586,7 +576,7 @@ tan28: {
    tan79: {
       text: `It works for about day untill you both get tired of sitting in a hot cramped peice of wood and you and pablo leave and are met with hundreds of armed guards and you both get swarmed`,
       choices: [
-         ["start", "next"]
+         ["death", "next"]
       ]
    },
    tan80: {
@@ -599,7 +589,7 @@ tan28: {
    tan81: {
       text: `You knock again First you hear silence a guard is then you hear the 30 foot gate creek then start to open and watch it as it moves down faster then you think and the gate falls on you`,
       choices: [
-         ["start", "next"]
+         ["death", "next"]
       ]
    },
    tan82: {
@@ -618,7 +608,7 @@ tan28: {
    tan84: {
       text: `You enter through the window without looking through it and you see hundreds of guards eating lunch. They all swarm you and you die piled under 30 guards`,
       choices: [
-         ["start", "next"]
+         ["death", "next"]
       ]
    },
    tan85: {
@@ -694,7 +684,7 @@ tan28: {
    tan96: {
       text: `The End`,
       choices: [
-         ["start", "next"]
+         ["start", "refresh to get another ending"]
       ]
    },
    tan97: {
@@ -821,25 +811,25 @@ tan28: {
    tan117: {
       text: `You enter the secret door and it appears to not be a secret because all it is, is a hidey hole that is filled with bones and you soon realize how the amalgamations pass through the solid matter and dispatch you like a navy seal`,
       choices: [
-         ["start", "next"]
+         ["death", "next"]
       ]
    },
    tan118: {
       text: `You make it to the door and dont go in, and the amalgamations grab you by your ankle and you disolve, you died.`,
       choices: [
-         ["start", "next"]
+         ["death", "next"]
       ]
    },
    tan119: {
       text: `You run right and see wall. you full on sprinted into a wall. foreshame. You fall unconcious and you get ate`,
       choices: [
-         ["start", "next"]
+         ["death", "next"]
       ]
    },
    tan120: {
       text: `You turn around and the amalgamations kill you faster then you can say pladapus`,
       choices: [
-         ["start", "next"]
+         ["death", "next"]
       ]
    },
 // Make this fight sam
@@ -883,9 +873,9 @@ tan28: {
       ]
    },
    tan127: {
-      text: `First you hear silence a guard is  then you hear the 30 foot gate creek then start to open and watch it as it moves down faster then you think  and the gate falls on you`,
+      text: `First you hear silence then a guard silently opens the door without your knowledge then you hear the 30 foot gate creek then start to open and watch it as it moves down faster then you think and the gate falls on you`,
       choices: [
-         ["start", "next"]
+         ["death", "next"]
       ]
    },
    tan128: {
@@ -932,7 +922,7 @@ tan28: {
    tan134: {
       text: `you open the door only for your mortal body to be blasted into the abiss of light. as you feel your soul leaches out of your body it is pulled twords a strange tall man who take in in his and and puts it into a lantern. your death had caught up to you, it waited too long`,
       choices: [
-         ["start", "next"]
+         ["death", "next"]
       ]
    },
    tan135: {
@@ -1055,9 +1045,9 @@ tan28: {
       ]
    },
    tan155: {
-      text: `To be continued.`,
+      text: `To be continued?`,
       choices: [
-         ["start", "next"]
+         ["start", "restart?"]
       ]
    },
    tan156: {

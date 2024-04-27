@@ -150,7 +150,7 @@ const story = {
 tan22 : {
       text : `You see the outside of the three meat forest and you see a barder  and it looks as if you owe it something`,
       choices : [
-         ["tan23","Next"]
+         ["tan157","Next"]
     ]
    },
 tan157 : {
@@ -404,9 +404,9 @@ tan400: {
       ]
    },
    tan50: {
-      text: `Stay and fight(there is 3 of them and one of you)`,
+      text: `You run and hide and you sprint 2 corners and see 4 path doors in front of you`,
       choices: [
-         ["tan51", "Next"]
+         ["tan52", "Next"]
       ]
    },
    tan51: {
@@ -489,7 +489,13 @@ tan400: {
    tan63: {
       text: `You pick door 2 and you get put in a endless loop forever`,
       choices: [
-         ["death", "Next"]
+         ["tan404", "Next"]
+      ]
+   },
+   tan404: {
+      text: `You are now stuck in a infinite loop`,
+      choices: [
+         ["tan404", "Next"]
       ]
    },
    tan62: {

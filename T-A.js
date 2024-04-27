@@ -3,7 +3,7 @@ console.log('js works')
 const story = {
 
    start: {
-      text: "Hello kind fellow, since you are new to this ill tell you how this goes. If you die you get sent back to the beginning and there are 4 endings. Good luck.",
+      text: "Hello kind fellow, since you are new to this i'll tell you how this goes. If you die you get sent back to the beginning and there are 4 endings. Good luck.",
       choices: [
          ["tan0", "Start"]
       ]

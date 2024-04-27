@@ -1061,7 +1061,7 @@ tan400: {
       ]
    },
    tan152: {
-      text: `Standing there he says, "Youve done well be there is still evil out there. will you join me?''`,
+      text: `Standing there he says, "You've done well be there is still evil out there. will you join me?''`,
       choices: [
          ["tan153", `"Yes I will gladly."`],
          ["tan156", `"No, why would I want to go back?"`]

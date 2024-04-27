@@ -995,7 +995,7 @@ tan400: {
    },
 
    tan140: {
-      text: `You win the battle`,
+      text: `You somehow win the battle`,
       choices: [
          ["tan141", "Next"]
       ]

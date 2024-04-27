@@ -23,7 +23,7 @@ const story = {
       ]
    },
    tan2: {
-      text: `You picked "The pizza lovers outfit:", classic choice, never can go wrong with a classic. You leave the house.`,
+      text: `You picked 'The pizza lovers outfit', classic choice, never can go wrong with a classic. You leave the house.`,
       choices: [
          ["tan4", "Next"]
       ]
@@ -198,7 +198,7 @@ tan157 : {
    tan163 : {
       text : `You lash at the bader hiting him for a WHOPING 70DMG. He humbley accespts defeat and lets you pass throuth the forest.`,
       choices : [
-         ["death", "Next"]
+         ["tan24", "Next"]
     ]
    },
 
@@ -494,6 +494,12 @@ tan400: {
    },
    tan404: {
       text: `You are now stuck in a infinite loop`,
+      choices: [
+         ["tan405", "Next"]
+      ]
+   },
+   tan405: {
+      text: `Why would you re join the homies? Foreshame.`,
       choices: [
          ["tan404", "Next"]
       ]

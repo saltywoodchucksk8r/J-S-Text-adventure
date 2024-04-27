@@ -23,7 +23,7 @@ const story = {
       ]
    },
    tan2: {
-      text: `You you picked "The pizza lovers outfit:", classic choice, never can go wrong with a classic. You leave the house.`,
+      text: `You picked "The pizza lovers outfit:", classic choice, never can go wrong with a classic. You leave the house.`,
       choices: [
          ["tan4", "Next"]
       ]
@@ -36,13 +36,13 @@ const story = {
       ]
    },
    tan4: {
-      text: "Ze starts running across the street and a 5 ton pizza truck hauling an unholy amount of pizza and Ze dies",
+      text: "Ze starts running across the street and a 5 ton pizza truck hauling an unholy amount of pizza hits Ze and Ze dies instantly",
       choices: [
          ["tan5", "Next"]
       ]
    },
    tan5: {
-      text: "Ze opens their eyes and suddenly and realizes they are no longer in their own world",
+      text: "Ze opens their eyes and suddenly realizes they are no longer in their own world",
       choices: [
          ["tan6", "Next"]
       ]

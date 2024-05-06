@@ -512,13 +512,13 @@ tan28: {
    tan68: {
       text: `You walk into the parlor and out of pure chance you get hit with an axe as soon as you open the door`,
       choices: [
-         ["start", "next"]
+         ["death", "Next"]
       ]
    },
    tan69: {
       text: `You swing at the trees around you fall. A stranger approaches you and asks you if you're alright`,
       choices: [
-         ["tan70", "next"]
+         ["tan70", "Next"]
       ]
    },
    tan70: {
@@ -529,7 +529,7 @@ tan28: {
       ]
    },
    tan71: {
-      text: `Suddenly the stranger raises his hand and a bolt of lightning comes down to smite you`,
+      text: `The stranger looks down at you in shame after he trips you then he raises his hand and a bolt of lightning comes down to smite you`,
       choices: [
          ["start", "next"]
       ]

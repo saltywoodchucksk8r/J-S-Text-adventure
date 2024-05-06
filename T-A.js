@@ -403,7 +403,7 @@ tan28: {
       ]
    },
    tan52: {
-      text: `you turn around sprint 2 corners and see 4 path doors in front of you,A sign above these 4 doors "only one of these are true"`,
+      text: `you turn around sprint 2 corners and see 4 path doors in front of you, A sign above these 4 doors "only one of these are true"`,
       choices: [
          ["tan53", `Path 1's door Is a large 12 foot door that says "Exit"`],
          ["tan54", `Path 2's door is a 10 foot door that says "Pinapple belongs on pizza"`],
@@ -682,9 +682,10 @@ tan28: {
    tan93: {
       text: `You cower away and you see the credits roll in front of you and pablo calls you a coward for quitting then fades into black`,
       choices: [
-         ["tan94", "next"]
+         ["tan95", "next"]
       ]
    },
+
    tan95: {
       text: `You blackout and "wake up" in a room shrouded in darkness and all of the chareters in the game appear in front of you and start doing a ragdoll like dance then a sign appears in front of you and it says congradulations you got the "coward ending" then everything fades to black and you, and everything stop existing`,
       choices: [

@@ -1,19 +1,15 @@
 console.log('js works')
 
-const player = {
-   health: 100,
-   inventory: [
-      'anItem',
-      'anotherItem'
-   ]
-}
-
-console.log(player.inventory)
-
 const story = {
 
    start: {
-      text: "It's currently 8pm and Ze (youre Ze) is asleep. your alarm goes off and you wake up. You take a moment to collect yourself and then you, realize you're late for the pizza convention (for some reason they only happen at night). You then assertivly rush of the door out of the house but you realize you forgot to put on clothes. You run back inside to pick one of 3 outfits, which will you choose?",
+      text: "Hello kind fellow, since you are new to this i'll tell you how this goes. If you die you get sent back to the beginning and there are 4 endings. Good luck.",
+      choices: [
+         ["tan0", "Start"]
+      ]
+   },
+   tan0: {
+      text: "It's currently 8pm and Ze (you're Ze) is asleep. Your alarm goes off and you wake up. You take a moment to collect yourself and then you realize you're late for the pizza convention (for some reason they only happen at night). You then rush of the door out of the house but you realize you forgot to put on clothes. You run back inside to pick one of 3 outfits, which will you choose?",
       choices: [
          ["tan1", "The meat lovers outfit"],
          ["tan2", "The pizza lovers outfit"],
@@ -26,6 +22,7 @@ const story = {
          ["tan4", "Next"]
       ]
    },
+   
    tan2: {
       text: "You decide your pick is the 'The pizza lovers outfit', classic choice, never can go wrong with a classic. You leave the house.",
       choices: [

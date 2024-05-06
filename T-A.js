@@ -229,21 +229,38 @@ tan25 : {
       ]
    },
    tan26: {
-      text: `north of you, you see a crimson sky and a terrifying path with skulls on the side of the road,in front of you; you see a regular park path, South of you; see some type of peper flake path that looks majestic, maybe even suspiciously peaceful `,
+      text: `North of you, you see a crimson sky and a terrifying path with skulls on the side of the road,in front of you; you see a regular park path, South of you; see some type of peper flake path that looks majestic, maybe even suspiciously peaceful`,
       choices: [
          ["tan43", "Front"],
          ["tan28", "North"],
-         ["tan28", "South"]
+         ["tan400", "South"]
       ]
    },
 
-tan28: {
-      text: `as you travel north you notice the path is singed with burn marks and skulls scattered across on the road`,
+tan400: {
+      text: `This path is so peaceful that you cant even explain what your surroundings look like`,
       choices: [
-         ["tan29", "next"]
+         ["tan401", "Next"]
       ]
    },
-
+   tan401: {
+      text: `You feel as if you could just rest in this place and you go to rest`,
+      choices: [
+         ["tan402", "Next"]
+      ]
+   },
+   tan402: {
+      text: `When you wake up, you realize that you were seeing hallusinations that the surrounding flowers where giving you`,
+      choices: [
+         ["tan403", "Next"]
+      ]
+   },
+   tan403: {
+      text: `You try to run and in your mind you're running but you're sleep, you are now trapped in a eternal slumber untill the plants stop using you for nutrition`,
+      choices: [
+         ["death", "Next"]
+      ]
+   },
    tan28: {
       text: `as you travel north you notice the path is singed with burn marks and skulls scattered across on the road`,
       choices: [

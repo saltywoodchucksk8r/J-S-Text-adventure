@@ -1,11 +1,10 @@
-
 /* Bakground Color */
 
 body {
     margin: 0;
     background-color:bisque ;
 }
-
+/*Change the header below*/
 header {
 background-color: rgb(233, 110, 110);
 /* width: 100vw; */
@@ -13,6 +12,7 @@ text-align: center;
 margin-top: 10px;
 font-size: xx-large
 }
+/* Move everything below (name by Mr. Fast) */
 .flexDaddy {
     width: 100%;
     display: flex;
@@ -20,7 +20,7 @@ font-size: xx-large
     align-items: center;
     flex-direction: column;
 }
-
+/* Move jusr the buttons below */
 .buttons {
     display:  flex;
     flex-flow: row wrap;
@@ -29,20 +29,20 @@ font-size: xx-large
     gap:1em;
     justify-content: center;
 }
-
+/* Change buttons below */
 .buttons > button {
     padding: 1em;
     color: red;
     background-color: blanchedalmond;
     border-radius: 20px;
-    
+    font-size: 1.2rem;
 }
-
+/* Change both story and buttons below */
 #story,.button {
     width: 80%;
-    font-size: large;
+    font-size:x-large
 }
-
+/* For the headder font*/
 .almendra-sc-regular,header {
     font-family: "Almendra SC", serif;
     font-weight: 400;

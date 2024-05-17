@@ -375,8 +375,6 @@ tan400: {
          ["tan47", "Yes"]
       ]
    },
-   //make a theoretical if then statemnt for if your health goes to zero 
-
 
 
    tan45: {
@@ -385,6 +383,15 @@ tan400: {
          ["tan46", "next"]
       ]
    },
+
+   tan406: {
+      text: `The homeless man approaches you,the homeless man asks you to join his homeless armada, they call themselves the homies, will you join them?`,
+      choices: [
+         ["tan45", "no"],
+         ["tan47", "Yes"]
+      ]
+   },
+
    tan46: {
       text: `You survive that ordeal and you see a man in the distance and you approach him`,
       choices: [

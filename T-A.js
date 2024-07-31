@@ -13,7 +13,7 @@ console.log(player.inventory)
 const story = {
 
    start: {
-      text: "It's currently 8pm and Ze (youre Ze) is asleep. your alarm goes off and you wake up. You take a moment to collect yourself and then you, realize you're late for the pizza convention (for some reason they only happen at night). You then assertivly rush of the door out of the house but you realize you forgot to put on clothes. You run back inside to pick one of 3 outfits, which will you choose?",
+      text: "It's currently 8pm and Ze (you're Ze) is asleep. your alarm goes off and you wake up. You take a moment to collect yourself and then you, realize you're late for the pizza convention (for some reason they only happen at night). You then assertivly rush of the door out of the house but you realize you forgot to put on clothes. You run back inside to pick one of 3 outfits, which will you choose?",
       choices: [
          ["tan1", "The meat lovers outfit"],
          ["tan2", "The pizza lovers outfit"],
@@ -76,7 +76,7 @@ const story = {
       ]
    },
    tan10: {
-      text: "I need your help, I was chilling in my tower and all of a sudden the evil demon lord pizzaria stole the 8 slices that hold enough power to destroy our world. Luckily I have the pizza staff which is the only last piece stopping him from destroying the world. Please go retrieve our 8 slices of life and you must save the world from it's destruction.",
+      text: "I need your help, I was chilling in my tower and all of a sudden the evil demon lord pizzaria stole the fabled 8 slices that hold enough power to destroy our world. Luckily I have the pizza staff which is the only last piece stopping him from destroying the world. Please go retrieve our 8 slices of life and you must save the world from it's destruction.",
       choices: [
          ["tan11", "Next"]
       ]
@@ -87,11 +87,11 @@ const story = {
          ["tan12", `tell Pizzarino that you need to stay here and protect your "family"`],
          ["tan13", `tell Pizzarino that "you dont want to because you're in a new world with new people and a whole lot of pizza"`],
          ["tan14", `tell Pizzarino no and that you want to explore the world on your own`],
-         ["tan15", `ask  pizzarino what he knows about you`]
+         ["tan15", `ask  Pizzarino what he knows about you`]
       ]
    },
    tan12: {
-      text: `Pizzarino says "ok" then walks out and goes off to fight pizzario`,
+      text: `Pizzarino says ok then walks out and goes off to fight pizzario`,
       choices: [
          ["tan16", "Next"]
       ]
@@ -124,7 +124,7 @@ const story = {
    tan19: {
       text: `Pizzarino thanks you then says "Take this to help you on your journey"`,
       choices: [
-         ["tan22", "head off on your journey"]
+         ["tan22", "Head off on your journey"]
       ]
    },
    tan14: {
@@ -146,7 +146,7 @@ const story = {
       ]
    },
    tan21: {
-      text: `"I think that if anyone where to save our world it would be you"You understand what you need to do next and you tell pizzario that you're going to help`,
+      text: `I think that if anyone where to save our world it would be you, you understand what you need to do next and you tell pizzario that you're going to help`,
       choices: [
          ["tan19", "Next"]
       ]
@@ -228,7 +228,7 @@ tan25 : {
    tan26: {
       text: `you travel deeper into the forest and you see 3 paths in front of you`,
       choices: [
-         ["tan27", "next"]
+         ["tan27", "Next"]
       ]
    },
    tan26: {
@@ -243,20 +243,20 @@ tan25 : {
 tan28: {
       text: `as you travel north you notice the path is singed with burn marks and skulls scattered across on the road`,
       choices: [
-         ["tan29", "next"]
+         ["tan29", "Next"]
       ]
    },
 
    tan28: {
       text: `as you travel north you notice the path is singed with burn marks and skulls scattered across on the road`,
       choices: [
-         ["tan29", "next"]
+         ["tan29", "Next"]
       ]
    },
    tan29: {
       text: `some sort of hobgoblins block your path, and they want you to join them`,
       choices: [
-         ["tan30", "next"]
+         ["tan30", "Next"]
       ]
    },
    tan30: {
@@ -270,13 +270,13 @@ tan28: {
    tan31: {
       text: `You go off to spend the rest of your life as a hobgoblin over the years you slowly turn into a hob goblin`,
       choices: [
-         ["tan33", "next"]
+         ["tan33", "Next"]
       ]
    },
    tan33: {
       text: `one day, somone comes through the forest and you ask them if they want to join and with no words they slaughter you, your family, and your kind`,
       choices: [
-         ["start", "next"]
+         ["start", "Next"]
       ]
    },
 
@@ -290,21 +290,21 @@ tan28: {
    tan35: {
       text: `You SLASH at one of the goblins hiting him for 60DMG, CRITICAL HIT`,
       choices: [
-         ["tan165", "next goblin"]
+         ["tan165", "Next goblin"]
       ]
    },
   
    tan35: {
       text: `Using your Mastery attcking skills you spin and slash all three hobgoblins making their guts spill everywhere`,
       choices: [
-         ["tan36", "next"]
+         ["tan36", "Next"]
       ]
    },
 
    tan36: {
       text: `a scary dude named pepino the wicked comes at you and makes a cheesesplosion to himself nearly ending his own life, you awkwardly walk past this man and you see a man in the distance and you approach him`,
       choices: [
-         ["tan37", "next"]
+         ["tan37", "Next"]
       ]
    },
 
@@ -332,32 +332,32 @@ tan28: {
    tan39: {
       text: `"Thank you kind fellow"`,
       choices: [
-         ["tan42", "next"]
+         ["tan42", "Next"]
       ]
    },
    tan41: {
       text: `The humble craftsman turns mad after you neglect his kind offer and in a flash murders you sllicing you in half with his perfected wepon`,
       choices: [
-         ["start", "next"]
+         ["start", "Next"]
       ]
    },
    // tan42 is the meeting point
    tan42: {
       text: `you're now on the right path twards the evil demon lords castle`,
       choices: [
-         ["tan113", "next"]
+         ["tan113", "Next"]
       ]
    },
    tan43: {
       text: `This path has all of the regular park fixins exept you only see a homeless man on a bench`,
       choices: [
-         ["tan44", "next"]
+         ["tan44", "Next"]
       ]
    },
    tan44: {
       text: `The homeless man approaches you,the homeless man asks you to join his homeless armada, they call themselves the homies, will you join them?`,
       choices: [
-         ["tan45", "no"],
+         ["tan45", "No"],
          ["tan47", "Yes"]
       ]
    },
@@ -368,19 +368,19 @@ tan28: {
    tan45: {
       text: `The homeless people pull out guns from behind their backs as if they took them from some sort of inventory and shoot at you`,
       choices: [
-         ["tan46", "next"]
+         ["tan46", "Next"]
       ]
    },
    tan46: {
       text: `You survive that ordeal and you see a man in the distance and you approach him`,
       choices: [
-         ["tan42", "next"]
+         ["tan42", "Next"]
       ]
    },
    tan47: {
       text: `You hangout with the homies and suddenly realize they are homeless for a reason`,
       choices: [
-         ["tan48", "next"]
+         ["tan48", "Next"]
       ]
    },
    tan48: {
@@ -393,13 +393,13 @@ tan28: {
    tan50: {
       text: `Stay and fight(there is 3 of them and one of you)`,
       choices: [
-         ["tan51", "next"]
+         ["tan51", "Next"]
       ]
    },
    tan51: {
       text: `You run at them like an idiot and they hit you with a pizza themed projectile wepon instantly vaporizing you`,
       choices: [
-         ["start", "next"]
+         ["start", "Next"]
       ]
    },
    tan52: {
@@ -414,25 +414,25 @@ tan28: {
    tan53: {
       text: `You cracked the door and it snatched you into a room with bees... need I say more?`,
       choices: [
-         ["start", "next"]
+         ["start", "Next"]
       ]
    },
    tan54: {
       text: `Congratulations!!!!!! you're a normal human being and your opinion is valid about this, you get to move on to the next door this time you see 3 doors and a sign in front of these doors`,
       choices: [
-         ["tan57", "next"]
+         ["tan57", "Next"]
       ]
    },
    tan55: {
       text: `You walked into the room and its pitch black and you and its a room filled with peanut butter and you drown in it`,
       choices: [
-         ["start", "next"]
+         ["start", "Next"]
       ]
    },
    tan56: {
       text: `You touch the door thinking you were right when you were so so so wrong and the door activated and the text changed  to shame door and the door strapped you to a chair and it puts you in a room full of people and they shame you to death`,
       choices: [
-         ["start", "next"]
+         ["start", "Next"]
       ]
    },
    tan57: {
@@ -452,13 +452,13 @@ tan28: {
    tan59: {
       text: `You turn into a certified world-renouned mustashed man and you go to attempt to through the worlds largest pizza and butter on the floor makes you and get sufficated by it`,
       choices: [
-         ["start", "next"]
+         ["start", "Next"]
       ]
    },
    tan60: {
       text: `You might be right for this universe but we're talking about the one you're in right now, you die, no sound no nothing, just death`,
       choices: [
-         ["start", "next"]
+         ["start", "Next"]
       ]
    },
    tan61: {
@@ -476,26 +476,26 @@ tan28: {
    tan63: {
       text: `You pick door 2 and you get put in a endless loop forever`,
       choices: [
-         ["start", "next"]
+         ["start", "Next"]
       ]
    },
    tan62: {
       text: `You pick door one probably thinking and saying that you picked the right door because you did. Congratulations!!! you made it through the labrinth, outside the labrinth you see a guy and you have no choice but to approach him`,
       choices: [
-         ["tan64", "next"]
+         ["tan64", "Next"]
       ]
    },
    //you get the legendary naples katana
    tan64: {
       text: `The humble craftsman meets you at the end of the labrenth and tosses you one of his wepons and you both slay the homies`,
       choices: [
-         ["tan65", "next"]
+         ["tan65", "Next"]
       ]
    },
    tan65: {
       text: `Now that you're safe, you thank the humble craftsman and he replies with"you're welcome" then he tells you to continue down the path and he points to a light at the end of a tunnel`,
       choices: [
-         ["tan66", "next"]
+         ["tan66", "Next"]
       ]
    },
    tan66: {
@@ -515,13 +515,13 @@ tan28: {
    tan68: {
       text: `You walk into the parlor and out of pure chance you get hit with an axe as soon as you open the door`,
       choices: [
-         ["start", "next"]
+         ["start", "Next"]
       ]
    },
    tan69: {
       text: `You swing at the trees around you fall. A stranger approaches you and asks you if you're alright`,
       choices: [
-         ["tan70", "next"]
+         ["tan70", "Next"]
       ]
    },
    tan70: {
@@ -534,19 +534,19 @@ tan28: {
    tan71: {
       text: `Suddenly the stranger raises his hand and a bolt of lightning comes down to smite you`,
       choices: [
-         ["start", "next"]
+         ["start", "Next"]
       ]
    },
    tan72: {
       text: `You thank the stranger and and before you ask for a name he introduces himself "Hi my name is pablo pesto I saw you trying to practice and you looked like you were in distress"`,
       choices: [
-         ["tan73", "next"]
+         ["tan73", "Next"]
       ]
    },
    tan73: {
       text: `Pablo pesto proceeds to show you how to properly weald your wepon`,
       choices: [
-         ["tan74", "next"]
+         ["tan74", "Next"]
       ]
    },
    tan74: {
@@ -559,13 +559,13 @@ tan28: {
    tan75: {
       text: `Boo. Lame. you get sent to a different storyline because you didn't pick the cooler option`,
       choices: [
-         ["tan42", "next"]
+         ["tan42", "Next"]
       ]
    },
    tan76: {
       text: `You befriend pablo pesto then you both run into several ordeals for charecter development so you and pablo are best of friends`,
       choices: [
-         ["tan77", "next"]
+         ["tan77", "Next"]
       ]
    },
    tan77: {
@@ -580,13 +580,13 @@ tan28: {
    tan78: {
       text: `You and pablo make a trojan horse big enough to fit the both of you and pull a classic torjan horse.`,
       choices: [
-         ["tan79", "next"]
+         ["tan79", "Next"]
       ]
    },
    tan79: {
       text: `It works for about day untill you both get tired of sitting in a hot cramped peice of wood and you and pablo leave and are met with hundreds of armed guards and you both get swarmed`,
       choices: [
-         ["start", "next"]
+         ["start", "Next"]
       ]
    },
    tan80: {
@@ -599,13 +599,13 @@ tan28: {
    tan81: {
       text: `You knock again First you hear silence a guard is then you hear the 30 foot gate creek then start to open and watch it as it moves down faster then you think and the gate falls on you`,
       choices: [
-         ["start", "next"]
+         ["start", "Next"]
       ]
    },
    tan82: {
       text: `You feel embarassed after the silence after you knocked fills the area`,
       choices: [
-         ["tan83", "next"]
+         ["tan83", "Next"]
       ]
    },
    tan83: {
@@ -618,19 +618,19 @@ tan28: {
    tan84: {
       text: `You enter through the window without looking through it and you see hundreds of guards eating lunch. They all swarm you and you die piled under 30 guards`,
       choices: [
-         ["start", "next"]
+         ["start", "Next"]
       ]
    },
    tan85: {
       text: `You both enter through the stone wall and see the castle of pizzario and admire the structural integrity`,
       choices: [
-         ["tan86", "next"]
+         ["tan86", "Next"]
       ]
    },
    tan86: {
       text: `Ya'll continue to head twards the castle and yall enter through the front door`,
       choices: [
-         ["tan87", "next"]
+         ["tan87", "Next"]
       ]
    },
    // Make this fight sam
@@ -639,19 +639,19 @@ tan28: {
    tan87: {
       text: `Once you enter the castle you guys are met with 5 silly looking royal guards (the castle seems very understaffed). They apprach you guys and attack`,
       choices: [
-         ["tan88", "next"]
+         ["tan88", "Next"]
       ]
    },
    tan88: {
       text: `You both survive this trial and head twards the big doors that appears after the last gard dies`,
       choices: [
-         ["tan89", "next"]
+         ["tan89", "Next"]
       ]
    },
    tan40: {
       text: `You both survive this trial and head twards the big doors that appears after the last gard dies`,
       choices: [
-         ["tan89", "next"]
+         ["tan89", "Next"]
       ]
    },
    tan89: {
@@ -664,13 +664,13 @@ tan28: {
    tan90: {
       text: `You just stare the door with pablo right behind you, and you both just kinda do nothing now you have to open the door`,
       choices: [
-         ["tan91", "next"]
+         ["tan91", "Next"]
       ]
    },
    tan91: {
       text: `You open the door and you are both met with a room lit by torches with blue flames and a throne room with only pizzaria in it and the door slams behind you guys`,
       choices: [
-         ["tan92", "next"]
+         ["tan92", "Next"]
       ]
    },
    tan92: {
@@ -683,31 +683,31 @@ tan28: {
    tan93: {
       text: `You cower away and you see the credits roll in front of you and pablo calls you a coward for quitting then fades into black`,
       choices: [
-         ["tan94", "next"]
+         ["tan94", "Next"]
       ]
    },
    tan95: {
       text: `You blackout and "wake up" in a room shrouded in darkness and all of the chareters in the game appear in front of you and start doing a ragdoll like dance then a sign appears in front of you and it says congradulations you got the "coward ending" then everything fades to black and you, and everything stop existing`,
       choices: [
-         ["tan96", "next"]
+         ["tan96", "Next"]
       ]
    },
    tan96: {
       text: `The End`,
       choices: [
-         ["start", "next"]
+         ["start", "Next"]
       ]
    },
    tan97: {
       text: `You and pablo both take the step togeather and everything behind pizzarino is shrouded in black then it looks like pizzarino is charging up an attack`,
       choices: [
-         ["tan98", "next"]
+         ["tan98", "Next"]
       ]
    },
    tan98: {
       text: `You hear a magical hum coming from pizzarino and you start the battle`,
       choices: [
-         ["tan99", "next"]
+         ["tan99", "Next"]
       ]
    },
    // Make this fight sam
@@ -715,58 +715,58 @@ tan28: {
    tan99: {
       text: `Pizzarino starts slowing down but his attacks get stronger`,
       choices: [
-         ["tan100", "next"]
+         ["tan100", "Next"]
       ]
    },
    tan101: {
       text: `Pizzarino starts to talk about the reason why he took the pizza and his backstory`,
       choices: [
-         ["tan102", "next"]
+         ["tan102", "Next"]
       ]
    },
    //second phase with the calzone catastorophy, pizza wheel whirlwind, and doughy demolition
    tan102: {
       text: `His words bring you to tears but you both know that you've made it  too far to stop now`,
       choices: [
-         ["tan103", "next"]
+         ["tan103", "Next"]
       ]
    },
    tan103: {
       text: `The fight is getting intinse and pizzarino refuses to lose`,
       choices: [
-         ["tan104", "next"]
+         ["tan104", "Next"]
       ]
    },
    //THIRD PHASE calzone catastorophy, pizza wheel whirlwind, doughy demolition, pizza barage, mozzarella minefeld, and pepperoni projection
    tan104: {
       text: `pizzarino determination brings him to use over his full power and shatter his limits`,
       choices: [
-         ["tan105", "next"]
+         ["tan105", "Next"]
       ]
    },
    tan105: {
       text: `You and pablo finally finish the fight and aquire the golden slices and you and pablo both teleport back to your home where pizzarino and your parents await`,
       choices: [
-         ["tan106", "next"]
+         ["tan106", "Next"]
       ]
    },
    tan106: {
       text: `You and pablo hand over the staff and the slices to pizzarino and he laughs minacingly then pizzario says "You fools, you gave me everything I needed to take over the world"He says in a different evil sounding voice `,
       choices: [
-         ["tan107", "next"]
+         ["tan107", "Next"]
       ]
    },
    tan107: {
       text: `You and pablo hand over the staff and the slices to pizzarino and he laughs minacingly then pizzario says "You fools, you gave me everything I needed to take over the world"He says in a different evil sounding voice`,
       choices: [
-         ["tan108", "next"]
+         ["tan108", "Next"]
       ]
    },
   // Make this fight sam
    tan108: {
       text: `"Thank you both so much for being so stupid, you didn't even ask who brought you here" Then he challanges you to battle and you know you have to do this fight alone`,
       choices: [
-         ["tan108", "next"]
+         ["tan108", "Next"]
       ]
    },
    tan109: {
@@ -779,26 +779,26 @@ tan28: {
    tan110: {
       text: `You stay and live a long and adventurious life and everybody in your real world lives their regular lifes. Congradulations you got the "Main ending"`,
       choices: [
-         ["tan108", "next"]
+         ["tan108", "Next"]
       ]
    },
 
    tan111: {
       text: `You go home and you're family is mourning your "death" and they all call you a zombie then laugh and they welcome you back and you live the rest of you're life peacefully. Congradulaitons you got the "Home sweet home" ending.`,
       choices: [
-         ["tan112", "next"]
+         ["tan112", "Next"]
       ]
    },
    tan112: {
       text: `The End?`,
       choices: [
-         ["start", "next"]
+         ["start", "Next"]
       ]
    },
    tan113: {
       text: `You're walking fowards and you barely see the castle of Pizzaria in the distance, it looks thousands of miles away`,
       choices: [
-         ["tan115", "next"]
+         ["tan115", "Next"]
       ]
    },
 // Make this fight sam
@@ -822,25 +822,25 @@ tan28: {
    tan117: {
       text: `You enter the secret door and it appears to not be a secret because all it is, is a hidey hole that is filled with bones and you soon realize how the amalgamations pass through the solid matter and dispatch you like a navy seal`,
       choices: [
-         ["start", "next"]
+         ["start", "Next"]
       ]
    },
    tan118: {
       text: `You make it to the door and dont go in, and the amalgamations grab you by your ankle and you disolve, you died.`,
       choices: [
-         ["start", "next"]
+         ["start", "Next"]
       ]
    },
    tan119: {
       text: `You run right and see wall. you full on sprinted into a wall. foreshame. You fall unconcious and you get ate`,
       choices: [
-         ["start", "next"]
+         ["start", "Next"]
       ]
    },
    tan120: {
       text: `You turn around and the amalgamations kill you faster then you can say pladapus`,
       choices: [
-         ["start", "next"]
+         ["start", "Next"]
       ]
    },
 // Make this fight sam
@@ -848,26 +848,26 @@ tan28: {
    tan121: {
       text: `Congradulations you made it out alive barely with one hp`,
       choices: [
-         ["tan122", "next"]
+         ["tan122", "Next"]
       ]
    },
    //make everything go up by 20
    tan122: {
       text: `You have a awakening revalation and you're charecter gains +20 on all of your stats and unbritled motivaiton`,
       choices: [
-         ["tan123", "next"]
+         ["tan123", "Next"]
       ]
    },
    tan123: {
       text: `You transform into a lean, mean, pizza eating machine(nothing about you changed about you but now have that dawg in you)`,
       choices: [
-         ["tan124", "next"]
+         ["tan124", "Next"]
       ]
    },
    tan124: {
       text: `You approach the castle of pizzario what will you do?`,
       choices: [
-         ["tan125", "next"]
+         ["tan125", "Next"]
       ]
    },
    tan125: {
@@ -880,13 +880,13 @@ tan28: {
    tan126: {
       text: `You knock again `,
       choices: [
-         ["tan127", "next"]
+         ["tan127", "Next"]
       ]
    },
    tan127: {
       text: `First you hear silence a guard is  then you hear the 30 foot gate creek then start to open and watch it as it moves down faster then you think  and the gate falls on you`,
       choices: [
-         ["start", "next"]
+         ["start", "Next"]
       ]
    },
    tan128: {
@@ -899,19 +899,19 @@ tan28: {
    tan129: {
       text: `You ignore the path and realize there are no entrances you go back`,
       choices: [
-         ["tan125", "next"]
+         ["tan125", "Next"]
       ]
    },
    tan130: {
       text: `dig through the patch?`,
       choices: [
-         ["tan131", "next"]
+         ["tan131", "Next"]
       ]
    },
    tan131: {
       text: `you find yourself in the castles kitchen where the chefs are making spagetti`,
       choices: [
-         ["tan132", "next"]
+         ["tan132", "Next"]
       ]
    },
 // Make this fight sam
@@ -919,7 +919,7 @@ tan28: {
    tan132: {
       text: `After you fight the chefs you steal all of their marrinerra sauce and explore the castle`,
       choices: [
-         ["tan133", "next"]
+         ["tan133", "Next"]
       ]
    },
    tan133: {
@@ -933,32 +933,32 @@ tan28: {
    tan134: {
       text: `you open the door only for your mortal body to be blasted into the abiss of light. as you feel your soul leaches out of your body it is pulled twords a strange tall man who take in in his and and puts it into a lantern. your death had caught up to you, it waited too long`,
       choices: [
-         ["start", "next"]
+         ["start", "Next"]
       ]
    },
    tan135: {
       text: `opening the door you see two chests and a bottle`,
       choices: [
-         ["tan136", "next"]
+         ["tan136", "Next"]
       ]
    },
 
    tan136: {
       text: `you open the two chest and recive the olive oil flame thrower, a suply of olive oil, and 2 stacks of breadsticks`,
       choices: [
-         ["tan137", "next"]
+         ["tan137", "Next"]
       ]
    },
    tan137: {
       text: `you exit the room feeling more confident for what awaits next. you notice the dark door calls you forth`,
       choices: [
-         ["tan138", "next"]
+         ["tan138", "Next"]
       ]
    },
    tan138: {
       text: `you open the door and is met by the boss himself, pizzario, and hes appauled on how you snuck in`,
       choices: [
-         ["tan139", "next"]
+         ["tan139", "Next"]
       ]
    },
 // Make this fight sam
@@ -966,74 +966,74 @@ tan28: {
    tan139: {
       text: `nonetheless, he initiates the battle`,
       choices: [
-         ["tan140", "next"]
+         ["tan140", "Next"]
       ]
    },
 
    tan140: {
       text: `you win the battle`,
       choices: [
-         ["tan141", "next"]
+         ["tan141", "Next"]
       ]
    },
    tan141: {
       text: `winning the battle doesnt mean the slices of life are safe you must bring them together using the magic staff`,
       choices: [
-         ["tan142", "next"]
+         ["tan142", "Next"]
       ]
    },
    tan142: {
       text: `you walk out of the room into the larger plan siting infront of a giant oven`,
       choices: [
-         ["tan143", "next"]
+         ["tan143", "Next"]
       ]
    },
    tan143: {
       text: `you cast the special degorinos degree which metls the slices of life back together forming a full pizza again`,
       choices: [
-         ["tan144", "next"]
+         ["tan144", "Next"]
       ]
    },
    tan144: {
       text: `pizzarino spawns in and greats you telling you youve done a great ordeal to humaity. the world is put back into order and you can finally rest in peace`,
       choices: [
-         ["tan145", "next"]
+         ["tan145", "Next"]
       ]
    },
    tan145: {
       text: `before you wake up from your dream you must make it home`,
       choices: [
-         ["tan146", "next"]
+         ["tan146", "Next"]
       ]
    },
    tan146: {
       text: `you arrive home and as you open the door you sence the feeling of accomplishemnt`,
       choices: [
-         ["tan147", "next"]
+         ["tan147", "Next"]
       ]
    },
    tan147: {
       text: `your body slowly starts to de-materialize. as your vision fades away you regain consusness in your body in the real world. you are met by a pizza truck driver who is shruging you and call nine one one. your eyes close. then are re-opend by doctors picking you away and flashing lights`,
       choices: [
-         ["tan148", "next"]
+         ["tan148", "Next"]
       ]
    },
    tan148: {
       text: `eyes close and re-open. youre rushed around the office.`,
       choices: [
-         ["tan149", "next"]
+         ["tan149", "Next"]
       ]
    },
    tan150: {
       text: `6 days later...`,
       choices: [
-         ["tan151", "next"]
+         ["tan151", "Next"]
       ]
    },
    tan151: {
       text: `as you wake up a grone leaves your body. You then see pizzarino. `,
       choices: [
-         ["tan152", "next"]
+         ["tan152", "Next"]
       ]
    },
    tan152: {
@@ -1046,25 +1046,25 @@ tan28: {
    tan153: {
       text: `You are accepted back in and you a brought to be king of pizzealia.`,
       choices: [
-         ["tan151", "next"]
+         ["tan151", "Next"]
       ]
    },
    tan154: {
       text: `The End....`,
       choices: [
-         ["tan155", "next"]
+         ["tan155", "Next"]
       ]
    },
    tan155: {
       text: `To be continued.`,
       choices: [
-         ["start", "next"]
+         ["start", "Next"]
       ]
    },
    tan156: {
       text: `YOU ARE KILLED ON THE SPOT. BRUTALLY THROW OUT THE WINDOW AND EATEN ALIVE BY CLOWN SNAKES`,
       choices: [
-         ["death", "next"]
+         ["death", "Next"]
       ]
    },
    death: {

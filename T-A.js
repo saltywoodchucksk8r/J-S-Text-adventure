@@ -630,24 +630,25 @@ tan28: {
    tan86: {
       text: `Ya'll continue to head twards the castle and yall enter through the front door`,
       choices: [
-         ["tan164", "next"]
+         ["tan87", "next"]
       ]
    },
    // Make this fight sam
-   tan164: {
+  
+
+   tan87: {
       text: `Once you enter the castle you guys are met with 5 silly looking royal guards (the castle seems very understaffed). They apprach you guys and attack`,
       choices: [
          ["tan88", "next"]
       ]
    },
-
-   tan87: {
-      text: `Once you enter the castle you guys are met with 5 silly looking royal guards (the castle seems very understaffed). They apprach you guys and attack`,
+   tan88: {
+      text: `You both survive this trial and head twards the big doors that appears after the last gard dies`,
       choices: [
-         ["tan86", "next"]
+         ["tan89", "next"]
       ]
    },
-   tan88: {
+   tan40: {
       text: `You both survive this trial and head twards the big doors that appears after the last gard dies`,
       choices: [
          ["tan89", "next"]

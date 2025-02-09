@@ -1,19 +1,9 @@
 console.log('js works')
 
-const player = {
-   health: 100,
-   inventory: [
-      'anItem',
-      'anotherItem'
-   ]
-}
-
-console.log(player.inventory)
-
 const story = {
 
    start: {
-      text: "It's currently 8pm and Ze (you're Ze) is asleep. your alarm goes off and you wake up. You take a moment to collect yourself and then you, realize you're late for the pizza convention (for some reason they only happen at night). You then assertivly rush of the door out of the house but you realize you forgot to put on clothes. You run back inside to pick one of 3 outfits, which will you choose?",
+      text: "It's currently 8pm and Ze (youre Ze) is asleep. your alarm goes off and you wake up. You take a moment to collect yourself and then you, realize you're late for the pizza convention (for some reason they only happen at night). You then assertivly rush of the door out of the house but you realize you forgot to put on clothes. You run back inside to pick one of 3 outfits, which will you choose?",
       choices: [
          ["tan1", "The meat lovers outfit"],
          ["tan2", "The pizza lovers outfit"],
@@ -26,6 +16,7 @@ const story = {
          ["tan4", "Next"]
       ]
    },
+   
    tan2: {
       text: "You decide your pick is the 'The pizza lovers outfit', classic choice, never can go wrong with a classic. You leave the house.",
       choices: [
@@ -232,21 +223,26 @@ tan25 : {
       ]
    },
    tan26: {
-      text: `north of you, you see a crimson sky and a terrifying path with skulls on the side of the road,in front of you; you see a regular park path, South of you; see some type of peper flake path that looks majestic, maybe even suspiciously peaceful `,
+      text: `North of you, you see a crimson sky and a terrifying path with skulls on the side of the road,in front of you; you see a regular park path, South of you; see some type of peper flake path that looks majestic, maybe even suspiciously peaceful`,
       choices: [
          ["tan43", "Front"],
          ["tan28", "North"],
-         ["tan28", "South"]
+         ["tan400", "South"]
       ]
    },
 
-tan28: {
-      text: `as you travel north you notice the path is singed with burn marks and skulls scattered across on the road`,
+tan400: {
+      text: `This path is so peaceful that you cant even explain what your surroundings look like`,
       choices: [
-         ["tan29", "Next"]
+         ["tan29", "next"]
       ]
    },
-
+   tan403: {
+      text: `You try to run and in your mind you're running but you're sleep, you are now trapped in a eternal slumber untill the plants stop using you for nutrition`,
+      choices: [
+         ["death", "Next"]
+      ]
+   },
    tan28: {
       text: `as you travel north you notice the path is singed with burn marks and skulls scattered across on the road`,
       choices: [
@@ -361,8 +357,6 @@ tan28: {
          ["tan47", "Yes"]
       ]
    },
-   //make a theoretical if then statemnt for if your health goes to zero 
-
 
 
    tan45: {
@@ -371,6 +365,15 @@ tan28: {
          ["tan46", "Next"]
       ]
    },
+
+   tan406: {
+      text: `The homeless man approaches you,the homeless man asks you to join his homeless armada, they call themselves the homies, will you join them?`,
+      choices: [
+         ["tan45", "no"],
+         ["tan47", "Yes"]
+      ]
+   },
+
    tan46: {
       text: `You survive that ordeal and you see a man in the distance and you approach him`,
       choices: [
@@ -403,7 +406,7 @@ tan28: {
       ]
    },
    tan52: {
-      text: `you turn around sprint 2 corners and see 4 path doors in front of you,A sign above these 4 doors "only one of these are true"`,
+      text: `you turn around sprint 2 corners and see 4 path doors in front of you, A sign above these 4 doors "only one of these are true"`,
       choices: [
          ["tan53", `Path 1's door Is a large 12 foot door that says "Exit"`],
          ["tan54", `Path 2's door is a 10 foot door that says "Pinapple belongs on pizza"`],
@@ -515,7 +518,7 @@ tan28: {
    tan68: {
       text: `You walk into the parlor and out of pure chance you get hit with an axe as soon as you open the door`,
       choices: [
-         ["start", "Next"]
+         ["start", "next"]
       ]
    },
    tan69: {
@@ -532,7 +535,7 @@ tan28: {
       ]
    },
    tan71: {
-      text: `Suddenly the stranger raises his hand and a bolt of lightning comes down to smite you`,
+      text: `The stranger looks down at you in shame after he trips you then he raises his hand and a bolt of lightning comes down to smite you`,
       choices: [
          ["start", "Next"]
       ]
@@ -683,9 +686,10 @@ tan28: {
    tan93: {
       text: `You cower away and you see the credits roll in front of you and pablo calls you a coward for quitting then fades into black`,
       choices: [
-         ["tan94", "Next"]
+         ["tan94", "next"]
       ]
    },
+
    tan95: {
       text: `You blackout and "wake up" in a room shrouded in darkness and all of the chareters in the game appear in front of you and start doing a ragdoll like dance then a sign appears in front of you and it says congradulations you got the "coward ending" then everything fades to black and you, and everything stop existing`,
       choices: [
